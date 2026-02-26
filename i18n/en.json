@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "Construction Portfolio | Residential & Commercial Support",
+    "description": "Construction portfolio featuring drywall, framing, insulation, finishing, and site administration work across residential and commercial projects in Canada.",
+    "siteName": "Construction Portfolio",
+    "ogTitle": "Construction Portfolio",
+    "ogDescription": "Hands-on field execution and reliable administrative support for construction projects.",
+    "ogLocale": "en_CA"
+  },
+  "a11y": {
+    "skipToMain": "Skip to main content"
+  },
+  "site": {
+    "brand": "Construction Portfolio"
+  },
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "skills": "Skills",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+  "home": {
+    "headline": "Reliable Construction Support from Site to Office",
+    "summary": "I support residential and light commercial builds with practical field work and organized site administration, from framing and drywall prep to material tracking and daily reporting."
+  },
+  "projects": {
+    "title": "Projects",
+    "items": [
+      {
+        "title": "Basement Renovation - Toronto, ON",
+        "description": "Supported framing layout, insulation installation, drywall boarding, and finishing prep for a full basement conversion."
+      },
+      {
+        "title": "Retail Interior Refresh - Mississauga, ON",
+        "description": "Coordinated demolition cleanup, partition wall framing, drywall repairs, and closeout documentation under tight timelines."
+      },
+      {
+        "title": "Townhome Multi-Unit Finishing - Vaughan, ON",
+        "description": "Tracked materials, assisted with punch list completion, and supported schedule updates between subcontractors and site supervision."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "field": {
+      "title": "Field",
+      "items": [
+        "Drywall installation support and joint prep",
+        "Wall framing and layout assistance",
+        "Insulation placement and quality checks",
+        "Jobsite safety, cleanup, and tool organization"
+      ]
+    },
+    "admin": {
+      "title": "Administrative",
+      "items": [
+        "Daily logs and progress reporting",
+        "Material tracking and inventory follow-up",
+        "Site admin support and document control",
+        "Subcontractor coordination and schedule communication"
+      ]
+    }
+  },
+  "certifications": {
+    "title": "Certifications & Training",
+    "items": [
+      "WHMIS (Workplace Hazardous Materials Information System)",
+      "Working at Heights (Ontario)",
+      "Construction Site Safety Orientation",
+      "Basic Blueprint Reading for Interior Works"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "body": "Interested in collaborating on a project? Let's connect."
+  }
+}

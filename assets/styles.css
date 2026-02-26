@@ -1,0 +1,154 @@
+:root {
+  --bg: #f5f6f7;
+  --card: #ffffff;
+  --text: #1f2933;
+  --muted: #52606d;
+  --accent: #0b6e4f;
+  --border: #d9e2ec;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.container {
+  width: min(100% - 2rem, 68rem);
+  margin-inline: auto;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: 0;
+  background: var(--accent);
+  color: white;
+  padding: 0.5rem 0.75rem;
+}
+
+.skip-link:focus {
+  left: 1rem;
+  top: 1rem;
+  z-index: 999;
+}
+
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 0;
+}
+
+.header-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 1rem 0;
+}
+
+.brand {
+  margin: 0;
+  font-weight: 700;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.nav-list a,
+.lang-switcher a {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-list a:hover,
+.lang-switcher a:hover,
+.nav-list a:focus-visible,
+.lang-switcher a:focus-visible {
+  color: var(--accent);
+}
+
+.lang-switcher {
+  display: flex;
+  gap: 0.45rem;
+  align-items: center;
+}
+
+main {
+  padding: 2rem 0 3rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+.hero {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1.25rem;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: grid;
+  gap: 1rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  padding: 1rem;
+}
+
+.two-col {
+  display: grid;
+  gap: 1rem;
+}
+
+ul {
+  padding-left: 1.25rem;
+}
+
+a {
+  color: var(--accent);
+}
+
+@media (min-width: 48rem) {
+  .header-inner {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cards {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .two-col {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
