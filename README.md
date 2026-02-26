@@ -2,53 +2,52 @@
 
 Static bilingual case study page for GitHub Pages.
 
-## Stack
+## Estrutura
 
 - `index.html`
 - `assets/css/styles.css`
-- `assets/js/i18n.js` (dictionary-driven translations)
-- `assets/img/*` (local gallery assets)
+- `assets/js/i18n.js` (dicionário EN/PT no próprio arquivo)
+- `assets/img/*` (galeria local)
+- `assets/SalonPrive-CaseStudy.pdf`
 
-No build tools, no framework, no backend.
+Sem build step, sem framework, sem backend.
 
-## Local preview
+## Preview local
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Open:
+Acesse:
 
-- `http://localhost:8000/` (default EN)
-- `http://localhost:8000/?lang=pt` (PT override)
+- `http://localhost:8000/` (EN padrão)
+- `http://localhost:8000/?lang=pt` (força PT)
 
-## Language behavior
+## Idioma
 
-- Default language is **English**.
-- `?lang=pt` or `?lang=en` overrides everything.
-- Without query param, language falls back to `localStorage` (`preferredLanguage`).
-- Switcher updates all page content immediately and persists language.
+- Padrão: **English**.
+- `?lang=pt` e `?lang=en` têm prioridade sobre `localStorage`.
+- Sem query param, usa `localStorage.preferredLanguage`.
+- O switch EN/PT troca todo o conteúdo e persiste a escolha.
 
-## Gallery assets
+## Usando as fotos anexadas
 
-The gallery uses local files from `assets/img/`.
+A página já está preparada para carregar as fotos reais da galeria por estes nomes (JPEG):
 
-If you have final project photos, replace the placeholder SVGs with your real images using the same filenames:
+- `assets/img/salonprive-01.jpg`
+- `assets/img/salonprive-02.jpg`
+- `assets/img/salonprive-03.jpg`
+- `assets/img/salonprive-04.jpg`
+- `assets/img/salonprive-05.jpg`
+- `assets/img/salonprive-06.jpg`
+- `assets/img/salonprive-07.jpg`
 
-- `hero-finished`
-- `detail-bar`
-- `detail-display`
-- `framing-steel`
-- `curved-shell`
-- `platform-build`
-- `wn-sign`
+Enquanto esses arquivos não existirem, a página usa fallback local em SVG automaticamente.
 
-Keep paths local for GitHub Pages compatibility.
+## PDF
 
-## PDF placeholder
-
-A placeholder file is provided at:
+Arquivo placeholder disponível em:
 
 - `assets/SalonPrive-CaseStudy.pdf`
 
-Replace it with your final downloadable case study PDF when ready.
+Substitua pelo PDF final quando estiver pronto.
