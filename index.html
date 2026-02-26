@@ -3,20 +3,147 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Redirecting… | Construction Portfolio</title>
-    <meta name="robots" content="noindex" />
-    <script>
-      (function () {
-        const saved = localStorage.getItem('preferredLanguage');
-        const browser = (navigator.language || '').toLowerCase();
-        const targetLang = saved || (browser.startsWith('pt') ? 'pt' : 'en');
-        const hash = window.location.hash || '';
-        const search = window.location.search || '';
-        window.location.replace(`/${targetLang}/${search}${hash}`);
-      })();
-    </script>
+    <title>Salon Privé - Construction Breakdown | EN</title>
+    <meta
+      name="description"
+      content="Case study of Salon Privé at the Living Luxe Design Show 2024, covering framing, steel stud layout, curved feature execution, and finish coordination."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Salon Privé - Construction Breakdown" />
+    <meta
+      property="og:description"
+      content="Bilingual construction case study: modular trade show build, structural system, curved framing technique, and finishing coordination."
+    />
+    <meta property="og:image" content="assets/img/hero-finished.svg" />
+    <meta property="og:url" content="https://your-username.github.io/Construction-Portfolio/" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/i18n.js"></script>
   </head>
   <body>
-    <p>Redirecting to your preferred language…</p>
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to main content</a>
+
+    <header class="site-header">
+      <div class="container header-row">
+        <p class="brand">Salon Privé - <span data-i18n="hero.kicker">Construction Breakdown</span></p>
+        <div class="lang-switch" role="group" aria-label="Language switcher">
+          <button type="button" data-lang-btn="en" aria-pressed="true">EN</button>
+          <button type="button" data-lang-btn="pt" aria-pressed="false">PT</button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <section class="hero" id="hero">
+        <p class="eyebrow" data-i18n="hero.eyebrow">Living Luxe Design Show 2024</p>
+        <h1 data-i18n="hero.title">Salon Privé - Construction Breakdown</h1>
+        <p data-i18n="hero.summary">
+          Bilingual portfolio case study documenting modular trade show construction, curved steel framing execution, and finishing coordination for a premium hospitality environment.
+        </p>
+        <ul class="facts">
+          <li><strong data-i18n="facts.event.label">Event:</strong> <span data-i18n="facts.event.value">Living Luxe Design Show 2024</span></li>
+          <li><strong data-i18n="facts.design.label">Design:</strong> <span data-i18n="facts.design.value">Wise Nadel Design</span></li>
+          <li><strong data-i18n="facts.execution.label">Execution:</strong> <span data-i18n="facts.execution.value">IMP Construction Group</span></li>
+          <li><strong data-i18n="facts.role.label">My Role:</strong> <span data-i18n="facts.role.value">Framing & Interior Build Support</span></li>
+          <li><strong data-i18n="facts.location.label">Location:</strong> <span data-i18n="facts.location.value">Canada</span></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 data-i18n="overview.title">Project Overview</h2>
+        <p data-i18n="overview.body"></p>
+      </section>
+
+      <section>
+        <h2 data-i18n="scope.title">Scope of Work (My Contribution)</h2>
+        <ul>
+          <li data-i18n="scope.items.0"></li>
+          <li data-i18n="scope.items.1"></li>
+          <li data-i18n="scope.items.2"></li>
+          <li data-i18n="scope.items.3"></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 data-i18n="structure.title">Structural System Breakdown</h2>
+        <h3 data-i18n="structure.base.title">Base Platform</h3>
+        <p data-i18n="structure.base.body"></p>
+        <h3 data-i18n="structure.wall.title">Wall & Upper Framing</h3>
+        <p data-i18n="structure.wall.body"></p>
+      </section>
+
+      <section>
+        <h2 data-i18n="curve.title">Curved Front Feature - Technical Execution</h2>
+        <ol>
+          <li data-i18n="curve.steps.0"></li>
+          <li data-i18n="curve.steps.1"></li>
+          <li data-i18n="curve.steps.2"></li>
+          <li data-i18n="curve.steps.3"></li>
+        </ol>
+      </section>
+
+      <section>
+        <h2 data-i18n="mdf.title">Material Selection - Why 1/4&quot; Raw MDF?</h2>
+        <ul>
+          <li data-i18n="mdf.items.0"></li>
+          <li data-i18n="mdf.items.1"></li>
+          <li data-i18n="mdf.items.2"></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 data-i18n="finish.title">Surface Preparation & Finishing Coordination</h2>
+        <p data-i18n="finish.body"></p>
+      </section>
+
+      <section>
+        <h2 data-i18n="constraints.title">Construction Constraints</h2>
+        <ul>
+          <li data-i18n="constraints.items.0"></li>
+          <li data-i18n="constraints.items.1"></li>
+          <li data-i18n="constraints.items.2"></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 data-i18n="skills.title">Skills Demonstrated</h2>
+        <ul>
+          <li data-i18n="skills.items.0"></li>
+          <li data-i18n="skills.items.1"></li>
+          <li data-i18n="skills.items.2"></li>
+          <li data-i18n="skills.items.3"></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 data-i18n="positioning.title">Professional Positioning</h2>
+        <p data-i18n="positioning.body"></p>
+      </section>
+
+      <section>
+        <div class="section-row">
+          <h2 data-i18n="gallery.title">Image Gallery</h2>
+          <a class="button" href="assets/SalonPrive-CaseStudy.pdf" download data-i18n="gallery.download">Download PDF Case Study (Placeholder)</a>
+        </div>
+        <div class="gallery">
+          <figure><img src="assets/img/hero-finished.svg" alt="Completed Salon Privé lounge installation with seating and stone bar feature" loading="lazy" /></figure>
+          <figure><img src="assets/img/detail-bar.svg" alt="Front elevation showing the central stone bar and arched millwork openings" loading="lazy" /></figure>
+          <figure><img src="assets/img/detail-display.svg" alt="Display wall niche and integrated lighting detail" loading="lazy" /></figure>
+          <figure><img src="assets/img/framing-steel.svg" alt="Light-gauge steel framing in progress during construction phase" loading="lazy" /></figure>
+          <figure><img src="assets/img/curved-shell.svg" alt="Curved front shell built from segmented track and close stud spacing" loading="lazy" /></figure>
+          <figure><img src="assets/img/platform-build.svg" alt="Platform and perimeter wall system under active assembly" loading="lazy" /></figure>
+          <figure><img src="assets/img/wn-sign.svg" alt="Completed entry wall with WN Salon Privé branding" loading="lazy" /></figure>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-row">
+        <p>&copy; <span id="year"></span> <span data-i18n="footer.rights">Construction Portfolio</span></p>
+        <ul>
+          <li><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+          <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

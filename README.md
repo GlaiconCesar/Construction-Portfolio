@@ -1,46 +1,54 @@
-# Construction Portfolio (EN / PT-BR)
+# Salon Privé – Construction Breakdown (EN/PT)
 
-Static bilingual portfolio website for construction work, optimized for GitHub Pages.
+Static bilingual case study page for GitHub Pages.
 
-## Routes
+## Stack
 
-- English: `/en/`
-- Portuguese (Brazil): `/pt/`
-- Root (`/`) redirects to preferred language based on `localStorage` (fallback to browser language).
+- `index.html`
+- `assets/css/styles.css`
+- `assets/js/i18n.js` (dictionary-driven translations)
+- `assets/img/*` (local gallery assets)
+
+No build tools, no framework, no backend.
 
 ## Local preview
 
-1. From the repository root, run:
+```bash
+python3 -m http.server 8000
+```
 
-   ```bash
-   python3 -m http.server 8000
-   ```
+Open:
 
-2. Open `http://localhost:8000`.
-3. Confirm:
-   - redirect from `/` to `/en/` or `/pt/`
-   - language switcher keeps the current section (`#projects`, `#skills`, etc.)
-   - text updates from `/i18n/en.json` and `/i18n/pt.json`
+- `http://localhost:8000/` (default EN)
+- `http://localhost:8000/?lang=pt` (PT override)
 
-## Deployment (GitHub Pages)
+## Language behavior
 
-1. Push changes to the default branch.
-2. In **Settings → Pages**:
-   - **Source**: Deploy from a branch
-   - **Branch**: your default branch (root folder)
-3. Save. GitHub Pages will publish the static files.
+- Default language is **English**.
+- `?lang=pt` or `?lang=en` overrides everything.
+- Without query param, language falls back to `localStorage` (`preferredLanguage`).
+- Switcher updates all page content immediately and persists language.
 
-> After deployment, update `og:url` and `hreflang` URLs in `/en/index.html` and `/pt/index.html` with your actual GitHub username/repository path if needed.
+## Gallery assets
 
-## SEO and i18n implementation details
+The gallery uses local files from `assets/img/`.
 
-- Per-language documents with localized metadata (`title`, `description`, Open Graph fields).
-- Correct `html lang` attributes: `en` and `pt-BR`.
-- `hreflang` alternate links (`en`, `pt-BR`, `x-default`) on both pages.
-- Lightweight i18n dictionaries in:
-  - `i18n/en.json`
-  - `i18n/pt.json`
-- Translation helper (`assets/i18n.js`) binds dictionary keys to DOM nodes using:
-  - `data-i18n` for text content
-  - `data-i18n-attr` for attributes (e.g., meta tags)
-- Language preference persisted via `localStorage` key: `preferredLanguage`.
+If you have final project photos, replace the placeholder SVGs with your real images using the same filenames:
+
+- `hero-finished`
+- `detail-bar`
+- `detail-display`
+- `framing-steel`
+- `curved-shell`
+- `platform-build`
+- `wn-sign`
+
+Keep paths local for GitHub Pages compatibility.
+
+## PDF placeholder
+
+A placeholder file is provided at:
+
+- `assets/SalonPrive-CaseStudy.pdf`
+
+Replace it with your final downloadable case study PDF when ready.
