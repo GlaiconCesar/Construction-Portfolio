@@ -216,7 +216,7 @@ const dictionary = {
     img_framing_arch: 'Estrutura metálica durante execução curva',
     img_shell: 'Casca externa quase finalizada',
     img_framing_curve: 'Estrutura steel stud da parede curva',
-    img_brand: 'Identidade Wise Nadel Design Salon Privé',
+    img_brand: 'Identidade Wise Nadel Design Salon Privé branding',
     footer: {
       rights: 'Portfólio de Construção'
     }
@@ -270,6 +270,9 @@ function applyLanguage(lang) {
   });
 
   updateMetadata(langPack);
+
+  window.__langPack = langPack;
+  window.dispatchEvent(new CustomEvent('languagechange', { detail: { lang, langPack } }));
 }
 
 function getInitialLanguage() {

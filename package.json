@@ -1,0 +1,11 @@
+{
+  "name": "construction-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "images:build": "node scripts/resize-images.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.5"
+  }
+}
