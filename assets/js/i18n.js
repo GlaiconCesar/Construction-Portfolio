@@ -99,6 +99,13 @@ const dictionary = {
       title: 'Image Gallery',
       download: 'Download PDF Case Study (Placeholder)'
     },
+    img_hero: 'Hero finished luxury booth interior',
+    img_bar: 'Green stone bar feature detail',
+    img_wine: 'Illuminated wine display wall',
+    img_framing_arch: 'Metal framing during curved structure build',
+    img_shell: 'Exterior shell nearing completion',
+    img_framing_curve: 'Steel stud curved wall framing',
+    img_brand: 'Wise Nadel Design Salon Privé branding',
     footer: {
       rights: 'Construction Portfolio'
     }
@@ -203,6 +210,13 @@ const dictionary = {
       title: 'Galeria de Imagens',
       download: 'Baixar PDF do Estudo de Caso (Placeholder)'
     },
+    img_hero: 'Interior finalizado do booth de luxo',
+    img_bar: 'Detalhe do bar em pedra verde',
+    img_wine: 'Parede iluminada com exposição de vinhos',
+    img_framing_arch: 'Estrutura metálica durante execução curva',
+    img_shell: 'Casca externa quase finalizada',
+    img_framing_curve: 'Estrutura steel stud da parede curva',
+    img_brand: 'Identidade Wise Nadel Design Salon Privé',
     footer: {
       rights: 'Portfólio de Construção'
     }
@@ -239,6 +253,14 @@ function applyLanguage(lang) {
     const value = getValue(key, langPack);
     if (typeof value === 'string') {
       element.textContent = value;
+    }
+  });
+
+  document.querySelectorAll('[data-i18n-alt]').forEach((element) => {
+    const key = element.getAttribute('data-i18n-alt');
+    const value = getValue(key, langPack);
+    if (typeof value === 'string') {
+      element.setAttribute('alt', value);
     }
   });
 
