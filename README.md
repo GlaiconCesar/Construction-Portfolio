@@ -1,61 +1,44 @@
-# Salon Privé – Construction Breakdown (EN/PT)
+# Construction Portfolio (EN/PT)
 
-Static bilingual case study page for GitHub Pages.
+Static bilingual portfolio site for GitHub Pages.
 
-## Estrutura
+## Local preview
 
-- `index.html`
-- `assets/css/styles.css`
-- `assets/js/i18n.js` (dicionário EN/PT no próprio arquivo)
-- `assets/img/*` (galeria local)
-- `assets/SalonPrive-CaseStudy.pdf`
-
-Sem framework e sem backend (apenas geração estática de imagens).
-
-## Preview local
+Run a local static server from the repository root:
 
 ```bash
-python3 -m http.server 8000
+python -m http.server 8000
 ```
 
-Acesse:
+Open:
 
-- `http://localhost:8000/` (EN padrão)
-- `http://localhost:8000/?lang=pt` (força PT)
+- `http://localhost:8000/` (default EN)
+- `http://localhost:8000/?lang=pt` (forces Portuguese)
 
-## Idioma
+## Site structure
 
-- Padrão: **English**.
-- `?lang=pt` e `?lang=en` têm prioridade sobre `localStorage`.
-- Sem query param, usa `localStorage.preferredLanguage`.
-- O switch EN/PT troca todo o conteúdo e persiste a escolha.
+- `index.html`: home/portfolio landing page
+- `projects/`: individual project pages (for example, `projects/salon-prive.html`)
+- `data/*.json`: bilingual content sources (project cards and per-page dictionaries)
+- Shared assets/scripts:
+  - `assets/css/`: global styling
+  - `assets/js/`: shared behavior (i18n, gallery, etc.)
+  - `assets/img/`: reusable images/icons
 
-## Usando as fotos anexadas
+## Add a new project
 
-A página já está preparada para carregar as fotos reais da galeria por estes nomes (JPEG):
+1. **Copy a project page template in `projects/`.**
+   - Duplicate an existing project page and adapt structure/content.
+2. **Create EN/PT page JSON dictionaries.**
+   - Add matching translation keys for the new page content.
+3. **Add the project card entry in both list files.**
+   - Update `data/projects.en.json` and `data/projects.pt.json` with the new card metadata/link.
+4. **Confirm relative links/assets for GitHub Pages compatibility.**
+   - Validate paths from both `index.html` and `/projects/...` pages so they work under a repository base path.
 
-- `assets/img/salonprive-01.jpg`
-- `assets/img/salonprive-02.jpg`
-- `assets/img/salonprive-03.jpg`
-- `assets/img/salonprive-04.jpg`
-- `assets/img/salonprive-05.jpg`
-- `assets/img/salonprive-06.jpg`
-- `assets/img/salonprive-07.jpg`
+## Image build (Sharp)
 
-Enquanto esses arquivos não existirem, a página usa fallback local em SVG automaticamente.
-
-## PDF
-
-Arquivo placeholder disponível em:
-
-- `assets/SalonPrive-CaseStudy.pdf`
-
-Substitua pelo PDF final quando estiver pronto.
-
-
-## Build de imagens (Sharp)
-
-Para gerar as versões otimizadas da galeria (full + thumb em JPG/WebP):
+To generate optimized gallery images (full + thumb in JPG/WebP):
 
 ```bash
 npm i
