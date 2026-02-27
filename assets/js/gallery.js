@@ -1,11 +1,11 @@
 const galleryItems = [
-  { src: 'assets/img/hero-finished.jpg', altKey: 'img_hero' },
-  { src: 'assets/img/bar-feature.jpg', altKey: 'img_bar' },
-  { src: 'assets/img/wine-wall.jpg', altKey: 'img_wine' },
-  { src: 'assets/img/build-framing-arch.jpg', altKey: 'img_framing_arch' },
-  { src: 'assets/img/build-finished-shell.jpg', altKey: 'img_shell' },
-  { src: 'assets/img/build-framing-curved-wall.jpg', altKey: 'img_framing_curve' },
-  { src: 'assets/img/brand-wn-salon-prive.jpg', altKey: 'img_brand' }
+  { src: '../assets/img/hero-finished.jpg', altKey: 'img_hero' },
+  { src: '../assets/img/bar-feature.jpg', altKey: 'img_bar' },
+  { src: '../assets/img/wine-wall.jpg', altKey: 'img_wine' },
+  { src: '../assets/img/build-framing-arch.jpg', altKey: 'img_framing_arch' },
+  { src: '../assets/img/build-finished-shell.jpg', altKey: 'img_shell' },
+  { src: '../assets/img/build-framing-curved-wall.jpg', altKey: 'img_framing_curve' },
+  { src: '../assets/img/brand-wn-salon-prive.jpg', altKey: 'img_brand' }
 ];
 
 let activeIndex = 0;
