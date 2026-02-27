@@ -14,18 +14,27 @@
       property="og:description"
       content="Bilingual construction case study: modular trade show build, structural system, curved framing technique, and finishing coordination."
     />
-    <meta property="og:image" content="assets/img/salonprive-01.jpg" />
-    <meta property="og:url" content="https://your-username.github.io/Construction-Portfolio/" />
+    <meta property="og:image" content="assets/img/hero-finished.jpg" />
+    <meta property="og:url" content="https://glaiconcesar.github.io/Construction-Portfolio/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/styles.css" />
     <script defer src="assets/js/i18n.js"></script>
     <script defer src="assets/js/gallery.js"></script>
   </head>
   <body>
-    <a class="skip-link" href="#main" data-i18n="a11y.skip">Skip to main content</a>
+    <a class="skip-link" href="#main" data-i18n="a11y.skip" data-fallback="Skip to main content">Skip to main content</a>
 
     <header class="site-header">
       <div class="container header-row">
-        <p class="brand">Salon Privé - <span data-i18n="hero.kicker">Construction Breakdown</span></p>
+        <p class="brand">
+          Salon Privé -
+          <span data-i18n="hero.kicker" data-fallback="Construction Breakdown">Construction Breakdown</span>
+        </p>
         <div class="lang-switch" role="group" aria-label="Language switcher">
           <button type="button" data-lang-btn="en" aria-pressed="true">EN</button>
           <button type="button" data-lang-btn="pt" aria-pressed="false">PT</button>
@@ -35,176 +44,139 @@
 
     <main id="main" class="container">
       <section class="hero" id="hero">
-        <p class="eyebrow" data-i18n="hero.eyebrow">Living Luxe Design Show 2024</p>
-        <h1 data-i18n="hero.title">Salon Privé - Construction Breakdown</h1>
-        <p data-i18n="hero.summary"></p>
-        <ul class="facts">
-          <li><strong data-i18n="facts.event.label">Event:</strong> <span data-i18n="facts.event.value">Living Luxe Design Show 2024</span></li>
-          <li><strong data-i18n="facts.design.label">Design:</strong> <span data-i18n="facts.design.value">Wise Nadel Design</span></li>
-          <li><strong data-i18n="facts.execution.label">Execution:</strong> <span data-i18n="facts.execution.value">IMP Construction Group</span></li>
-          <li><strong data-i18n="facts.role.label">My Role:</strong> <span data-i18n="facts.role.value">Framing & Interior Build Support</span></li>
-          <li><strong data-i18n="facts.location.label">Location:</strong> <span data-i18n="facts.location.value">Canada</span></li>
-        </ul>
+        <div class="hero-media">
+          <img
+            src="assets/img/hero-finished.jpg"
+            alt="Hero finished luxury booth interior"
+            data-i18n-alt="img_hero"
+            width="1600"
+            height="1200"
+            loading="eager"
+            fetchpriority="high"
+            decoding="async"
+          />
+        </div>
+
+        <p class="eyebrow" data-i18n="hero.eyebrow" data-fallback="Living Luxe Design Show 2024">Living Luxe Design Show 2024</p>
+        <h1 data-i18n="hero.title" data-fallback="Salon Privé - Construction Breakdown">Salon Privé - Construction Breakdown</h1>
+        <p class="hero-summary" data-i18n="hero.summary" data-fallback="A bilingual project case study covering the framing, curved forms, and premium finish coordination for Salon Privé."></p>
+
+        <article class="facts-card" aria-labelledby="facts-heading">
+          <h2 id="facts-heading" class="facts-title" data-i18n="facts.title" data-fallback="Project Facts">Project Facts</h2>
+          <dl class="facts-grid">
+            <div class="fact-item">
+              <dt data-i18n="facts.event.label" data-fallback="Event">Event</dt>
+              <dd data-i18n="facts.event.value" data-fallback="Living Luxe Design Show 2024"></dd>
+            </div>
+            <div class="fact-item">
+              <dt data-i18n="facts.design.label" data-fallback="Design">Design</dt>
+              <dd data-i18n="facts.design.value" data-fallback="Wise Nadel Design"></dd>
+            </div>
+            <div class="fact-item">
+              <dt data-i18n="facts.execution.label" data-fallback="Execution">Execution</dt>
+              <dd data-i18n="facts.execution.value" data-fallback="IMP Construction Group"></dd>
+            </div>
+            <div class="fact-item">
+              <dt data-i18n="facts.role.label" data-fallback="Role">Role</dt>
+              <dd data-i18n="facts.role.value" data-fallback="Framing & Interior Build Support"></dd>
+            </div>
+            <div class="fact-item">
+              <dt data-i18n="facts.location.label" data-fallback="Location">Location</dt>
+              <dd data-i18n="facts.location.value" data-fallback="Canada"></dd>
+            </div>
+            <div class="fact-item">
+              <dt data-i18n="facts.materials.label" data-fallback="Materials">Materials</dt>
+              <dd data-i18n="facts.materials.value" data-fallback="Light-gauge steel studs, plywood, raw MDF"></dd>
+            </div>
+          </dl>
+        </article>
       </section>
 
-      <section><h2 data-i18n="overview.title"></h2><p data-i18n="overview.body"></p></section>
+      <section>
+        <h2 data-i18n="summary.title" data-fallback="Project Summary">Project Summary</h2>
+        <p data-i18n="summary.body" data-fallback="Salon Privé combined premium hospitality aesthetics with efficient trade-show construction. The build strategy balanced speed, precision, and premium quality in a temporary venue."></p>
+      </section>
 
       <section>
-        <h2 data-i18n="scope.title"></h2>
+        <h2 data-i18n="overview.title" data-fallback="Project Overview"></h2>
+        <p data-i18n="overview.body" data-fallback="A premium hospitality-style booth delivered under strict event timelines."></p>
+      </section>
+
+      <section>
+        <h2 data-i18n="scope.title" data-fallback="Scope of Work"></h2>
         <ul>
-          <li data-i18n="scope.items.0"></li>
-          <li data-i18n="scope.items.1"></li>
-          <li data-i18n="scope.items.2"></li>
-          <li data-i18n="scope.items.3"></li>
+          <li data-i18n="scope.items.0" data-fallback="Framing layout and assembly."></li>
+          <li data-i18n="scope.items.1" data-fallback="Base platform support."></li>
+          <li data-i18n="scope.items.2" data-fallback="Curved feature framing."></li>
+          <li data-i18n="scope.items.3" data-fallback="Trade coordination."></li>
         </ul>
       </section>
 
       <section>
-        <h2 data-i18n="structure.title"></h2>
-        <h3 data-i18n="structure.base.title"></h3>
-        <p data-i18n="structure.base.body"></p>
-        <h3 data-i18n="structure.wall.title"></h3>
-        <p data-i18n="structure.wall.body"></p>
+        <h2 data-i18n="structure.title" data-fallback="Structural System Breakdown"></h2>
+        <h3 data-i18n="structure.base.title" data-fallback="Base Platform"></h3>
+        <p data-i18n="structure.base.body" data-fallback="Plywood base designed for stability and alignment."></p>
+        <h3 data-i18n="structure.wall.title" data-fallback="Wall & Upper Framing"></h3>
+        <p data-i18n="structure.wall.body" data-fallback="Light-gauge steel framing for straight and curved geometry."></p>
       </section>
 
       <section>
-        <h2 data-i18n="curve.title"></h2>
+        <h2 data-i18n="curve.title" data-fallback="Curved Front Feature"></h2>
         <ol>
-          <li data-i18n="curve.steps.0"></li>
-          <li data-i18n="curve.steps.1"></li>
-          <li data-i18n="curve.steps.2"></li>
-          <li data-i18n="curve.steps.3"></li>
+          <li data-i18n="curve.steps.0" data-fallback="Segmented track for the curve."></li>
+          <li data-i18n="curve.steps.1" data-fallback="Adjusted stud spacing."></li>
+          <li data-i18n="curve.steps.2" data-fallback="Targeted reinforcement."></li>
+          <li data-i18n="curve.steps.3" data-fallback="1/4 in raw MDF skin."></li>
         </ol>
       </section>
 
       <section>
-        <h2 data-i18n="mdf.title"></h2>
+        <h2 data-i18n="mdf.title" data-fallback="Material Selection"></h2>
         <ul>
-          <li data-i18n="mdf.items.0"></li>
-          <li data-i18n="mdf.items.1"></li>
-          <li data-i18n="mdf.items.2"></li>
-        </ul>
-      </section>
-
-      <section><h2 data-i18n="finish.title"></h2><p data-i18n="finish.body"></p></section>
-
-      <section>
-        <h2 data-i18n="constraints.title"></h2>
-        <ul>
-          <li data-i18n="constraints.items.0"></li>
-          <li data-i18n="constraints.items.1"></li>
-          <li data-i18n="constraints.items.2"></li>
+          <li data-i18n="mdf.items.0" data-fallback="Flexible over curved framing."></li>
+          <li data-i18n="mdf.items.1" data-fallback="Clean shaping and transitions."></li>
+          <li data-i18n="mdf.items.2" data-fallback="Seal and prime before final finish."></li>
         </ul>
       </section>
 
       <section>
-        <h2 data-i18n="skills.title"></h2>
+        <h2 data-i18n="finish.title" data-fallback="Surface Preparation & Finishing"></h2>
+        <p data-i18n="finish.body" data-fallback="Aligned surfaces and coordinated with finishing trades."></p>
+      </section>
+
+      <section>
+        <h2 data-i18n="constraints.title" data-fallback="Construction Constraints"></h2>
         <ul>
-          <li data-i18n="skills.items.0"></li>
-          <li data-i18n="skills.items.1"></li>
-          <li data-i18n="skills.items.2"></li>
-          <li data-i18n="skills.items.3"></li>
+          <li data-i18n="constraints.items.0" data-fallback="Compressed schedule."></li>
+          <li data-i18n="constraints.items.1" data-fallback="Multi-trade logistics."></li>
+          <li data-i18n="constraints.items.2" data-fallback="Demountable yet premium results."></li>
         </ul>
       </section>
 
-      <section><h2 data-i18n="positioning.title"></h2><p data-i18n="positioning.body"></p></section>
+      <section>
+        <h2 data-i18n="skills.title" data-fallback="Skills Demonstrated"></h2>
+        <ul>
+          <li data-i18n="skills.items.0" data-fallback="Steel framing execution."></li>
+          <li data-i18n="skills.items.1" data-fallback="Curved geometry control."></li>
+          <li data-i18n="skills.items.2" data-fallback="Material behavior awareness."></li>
+          <li data-i18n="skills.items.3" data-fallback="Site coordination."></li>
+        </ul>
+      </section>
 
       <section>
-        <div class="section-row">
-          <h2 data-i18n="gallery.title"></h2>
-          <a class="button" href="assets/SalonPrive-CaseStudy.pdf" download data-i18n="gallery.download"></a>
-        </div>
-        <div class="gallery" id="gallery-grid"></div>
-        <div class="gallery">
-          <figure>
-            <img
-              src="assets/img/hero-finished.jpg"
-              srcset="assets/img/hero-finished.jpg 1600w"
-              sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw"
-              data-i18n-alt="img_hero"
-              alt="Hero finished luxury booth interior"
-              loading="eager"
-              fetchpriority="high"
-              decoding="async"
-            />
-          </figure>
-          <figure>
-            <img
-              src="assets/img/bar-feature.jpg"
-              srcset="assets/img/bar-feature.jpg 1600w"
-              sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw"
-              data-i18n-alt="img_bar"
-              alt="Green stone bar feature detail"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-          <figure>
-            <img
-              src="assets/img/wine-wall.jpg"
-              srcset="assets/img/wine-wall.jpg 1600w"
-              sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw"
-              data-i18n-alt="img_wine"
-              alt="Illuminated wine display wall"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-          <figure>
-            <img
-              src="assets/img/build-framing-arch.jpg"
-              srcset="assets/img/build-framing-arch.jpg 1600w"
-              sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw"
-              data-i18n-alt="img_framing_arch"
-              alt="Metal framing during curved structure build"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-          <figure>
-            <img
-              src="assets/img/build-finished-shell.jpg"
-              srcset="assets/img/build-finished-shell.jpg 1600w"
-              sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw"
-              data-i18n-alt="img_shell"
-              alt="Exterior shell nearing completion"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-          <figure>
-            <img
-              src="assets/img/build-framing-curved-wall.jpg"
-              srcset="assets/img/build-framing-curved-wall.jpg 1600w"
-              sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw"
-              data-i18n-alt="img_framing_curve"
-              alt="Steel stud curved wall framing"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-          <figure>
-            <img
-              src="assets/img/brand-wn-salon-prive.jpg"
-              srcset="assets/img/brand-wn-salon-prive.jpg 1600w"
-              sizes="(max-width: 700px) 100vw, (max-width: 1100px) 50vw, 33vw"
-              data-i18n-alt="img_brand"
-              alt="Wise Nadel Design Salon Privé branding"
-              loading="lazy"
-              decoding="async"
-            />
-          </figure>
-        </div>
+        <h2 data-i18n="positioning.title" data-fallback="Professional Positioning"></h2>
+        <p data-i18n="positioning.body" data-fallback="Portfolio evidence for interior framing and premium fit-out roles."></p>
+      </section>
+
+      <section class="gallery-section">
+        <h2 data-i18n="gallery.title" data-fallback="Image Gallery"></h2>
+        <div class="gallery" id="gallery-grid" aria-live="polite"></div>
       </section>
     </main>
 
     <footer class="site-footer">
       <div class="container footer-row">
-        <p>&copy; <span id="year"></span> <span data-i18n="footer.rights">Construction Portfolio</span></p>
-        <ul>
-          <li><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-          <li><a href="mailto:hello@example.com">hello@example.com</a></li>
-        </ul>
+        <p>© <span id="year"></span> <span data-i18n="footer.rights" data-fallback="Construction Portfolio"></span></p>
       </div>
     </footer>
   </body>
