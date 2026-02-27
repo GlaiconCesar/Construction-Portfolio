@@ -17,12 +17,19 @@ const dictionary = {
       summary:
         'This case study documents a modular and demountable trade show build executed under strict event deadlines. The work focused on framing precision, curved front geometry, and clean coordination with design and finishing trades.'
     },
+    summary: {
+      title: 'Project Summary',
+      body:
+        'Salon Privé united hospitality-grade aesthetics and practical event construction. The project required disciplined sequencing, dimensional accuracy, and premium finish readiness in a temporary venue setup.'
+    },
     facts: {
-      event: { label: 'Event:', value: 'Living Luxe Design Show 2024' },
-      design: { label: 'Design:', value: 'Wise Nadel Design' },
-      execution: { label: 'Execution:', value: 'IMP Construction Group' },
-      role: { label: 'My Role:', value: 'Framing & Interior Build Support' },
-      location: { label: 'Location:', value: 'Canada' }
+      title: 'Project Facts',
+      event: { label: 'Event', value: 'Living Luxe Design Show 2024' },
+      design: { label: 'Design', value: 'Wise Nadel Design' },
+      execution: { label: 'Execution', value: 'IMP Construction Group' },
+      role: { label: 'Role', value: 'Framing & Interior Build Support' },
+      location: { label: 'Location', value: 'Canada' },
+      materials: { label: 'Materials', value: 'Light-gauge steel studs, plywood, 1/4" raw MDF' }
     },
     overview: {
       title: 'Project Overview',
@@ -97,7 +104,7 @@ const dictionary = {
     },
     gallery: {
       title: 'Image Gallery',
-      download: 'Download PDF Case Study (Placeholder)',
+      download: 'Download PDF Case Study',
       openImage: 'Open image',
       viewerLabel: 'Image viewer',
       closeViewer: 'Close viewer',
@@ -111,67 +118,72 @@ const dictionary = {
     img_shell: 'Exterior shell nearing completion',
     img_framing_curve: 'Steel stud curved wall framing',
     img_brand: 'Wise Nadel Design Salon Privé branding',
-    footer: {
-      rights: 'Construction Portfolio'
-    }
+    footer: { rights: 'Construction Portfolio' }
   },
   pt: {
     meta: {
-      lang: 'pt-BR',
-      title: 'Salon Privé - Desdobramento Construtivo | Living Luxe Design Show 2024',
+      lang: 'pt',
+      title: 'Salon Privé - Detalhamento Construtivo | Living Luxe Design Show 2024',
       description:
-        'Estudo de caso do Salon Privé no Living Luxe Design Show 2024, com foco em estruturação, modulação em steel frame leve, execução curva e coordenação de acabamento.',
-      ogTitle: 'Salon Privé - Desdobramento Construtivo',
+        'Estudo de caso do Salon Privé no Living Luxe Design Show 2024, abordando estrutura metálica, layout steel stud, execução de curva frontal e coordenação de acabamento.',
+      ogTitle: 'Salon Privé - Detalhamento Construtivo',
       ogDescription:
-        'Estudo de caso bilíngue: montagem modular para feira, sistema estrutural, técnica de curva e coordenação de acabamentos.'
+        'Estudo de caso bilíngue: construção modular para feira, sistema estrutural, técnica de curvatura e coordenação de acabamento.'
     },
     a11y: { skip: 'Pular para o conteúdo principal' },
     hero: {
-      kicker: 'Desdobramento Construtivo',
+      kicker: 'Detalhamento Construtivo',
       eyebrow: 'Living Luxe Design Show 2024',
-      title: 'Salon Privé - Desdobramento Construtivo',
+      title: 'Salon Privé - Detalhamento Construtivo',
       summary:
-        'Este estudo de caso registra uma montagem modular e desmontável para feira, executada com prazo de evento rigoroso. O foco foi precisão na estrutura, geometria da frente curva e coordenação limpa com design e equipes de acabamento.'
+        'Este estudo de caso documenta uma montagem modular e desmontável para feira, executada com prazo rígido. O foco foi precisão de estrutura, geometria curva frontal e coordenação limpa com design e acabamento.'
+    },
+    summary: {
+      title: 'Resumo do Projeto',
+      body:
+        'O Salon Privé combinou estética de alto padrão com execução eficiente para evento. A estratégia construtiva equilibrou velocidade, precisão dimensional e preparação para acabamento premium em ambiente temporário.'
     },
     facts: {
-      event: { label: 'Evento:', value: 'Living Luxe Design Show 2024' },
-      design: { label: 'Design:', value: 'Wise Nadel Design' },
-      execution: { label: 'Execução:', value: 'IMP Construction Group' },
-      role: { label: 'Minha função:', value: 'Suporte em Estruturação e Construção Interna' },
-      location: { label: 'Local:', value: 'Canadá' }
+      title: 'Ficha do Projeto',
+      event: { label: 'Evento', value: 'Living Luxe Design Show 2024' },
+      design: { label: 'Design', value: 'Wise Nadel Design' },
+      execution: { label: 'Execução', value: 'IMP Construction Group' },
+      role: { label: 'Função', value: 'Suporte em estrutura e construção interna' },
+      location: { label: 'Local', value: 'Canadá' },
+      materials: { label: 'Materiais', value: 'Steel stud leve, compensado, MDF cru 1/4"' }
     },
     overview: {
       title: 'Visão Geral do Projeto',
       body:
-        'O Salon Privé foi entregue como um ambiente premium de hospitalidade dentro de um espaço temporário de evento. A estratégia construtiva exigiu montagem rápida, controle dimensional e detalhamento compatível com acabamentos de alto padrão, sem perder a lógica de logística e desmontagem de feira.'
+        'O Salon Privé foi entregue como um ambiente premium de hospitalidade em um espaço de evento temporário. A abordagem exigiu montagem rápida, controle dimensional e detalhamento capaz de receber acabamentos de alto padrão sem comprometer logística de feira e desmontagem.'
     },
     scope: {
       title: 'Escopo de Trabalho (Minha Contribuição)',
       items: [
-        'Apoio no traçado e montagem da estrutura em perfis metálicos leves para paredes perimetrais e estrutura superior.',
-        'Suporte na preparação da base com compensado para estabilidade e recebimento de acabamento.',
-        'Atuação na execução da frente curva, incluindo trilho segmentado/cortado e ajuste de espaçamento de montantes.',
-        'Coordenação das interfaces da estrutura com acabamento e marcenaria para manter transições limpas e cronograma.'
+        'Apoio no traçado e montagem de estrutura metálica leve para paredes perimetrais e parte superior.',
+        'Apoio na preparação da base em compensado para estabilidade e suporte de acabamento.',
+        'Contribuição na estrutura da frente curva com trilhos segmentados/cortados e ajuste de espaçamento dos montantes.',
+        'Coordenação de interfaces de estrutura com equipes de acabamento e marcenaria para entrega limpa e no prazo.'
       ]
     },
     structure: {
-      title: 'Desdobramento do Sistema Estrutural',
+      title: 'Detalhamento do Sistema Estrutural',
       base: {
-        title: 'Plataforma de Base',
+        title: 'Base de Plataforma',
         body:
-          'A base utilizou compensado como substrato principal, escolhido por rigidez, boa fixação e controle de tolerância em áreas de alto uso. Isso garantiu apoio estável para linhas de parede, integração de mobiliário e interfaces finais de acabamento.'
+          'A plataforma utilizou compensado como substrato principal, escolhido por rigidez, confiabilidade de fixação e controle de tolerância em áreas de alto tráfego. Serviu como base estável para paredes, integração de mobiliário e interfaces de acabamento final.'
       },
       wall: {
         title: 'Paredes e Estrutura Superior',
         body:
-          'As paredes e a estrutura elevada foram montadas com montantes metálicos leves, atendendo trechos retos e curvos. O sistema equilibrou velocidade, repetibilidade e geometria limpa para receber acabamento arquitetônico.'
+          'As paredes e a estrutura superior foram executadas em steel stud leve, atendendo geometrias retas e curvas. O sistema equilibrou velocidade, repetibilidade e leitura limpa para acabamentos arquitetônicos.'
       }
     },
     curve: {
       title: 'Frente Curva - Execução Técnica',
       steps: [
         'Foi feito o traçado com trilho segmentado (cortes tipo kerf) para definir com precisão o raio frontal.',
-        'O espaçamento dos montantes foi reduzido na curva para manter forma contínua e evitar "facetas".',
+        'O espaçamento dos montantes foi reduzido na curva para manter forma contínua e evitar facetas.',
         'Foram aplicados reforços pontuais onde havia necessidade de transferência de carga e estabilidade de borda.',
         'Uma pele de MDF cru de 1/4" (6 mm) foi instalada sobre o arco estruturado para criar superfície contínua pronta para preparo de acabamento.'
       ]
@@ -213,7 +225,7 @@ const dictionary = {
     },
     gallery: {
       title: 'Galeria de Imagens',
-      download: 'Baixar PDF do Estudo de Caso (Placeholder)',
+      download: 'Baixar PDF do Estudo de Caso',
       openImage: 'Abrir imagem',
       viewerLabel: 'Visualizador de imagens',
       closeViewer: 'Fechar visualizador',
@@ -227,9 +239,7 @@ const dictionary = {
     img_shell: 'Casca externa quase finalizada',
     img_framing_curve: 'Estrutura steel stud da parede curva',
     img_brand: 'Identidade Wise Nadel Design Salon Privé branding',
-    footer: {
-      rights: 'Portfólio de Construção'
-    }
+    footer: { rights: 'Portfólio de Construção' }
   }
 };
 
@@ -239,6 +249,10 @@ function getValue(path, source) {
     if (/^\d+$/.test(part)) return acc[Number(part)];
     return acc[part];
   }, source);
+}
+
+function getFallbackText(element) {
+  return element.getAttribute('data-fallback') || element.textContent.trim() || '[content unavailable]';
 }
 
 function updateMetadata(langPack) {
@@ -256,47 +270,50 @@ function updateMetadata(langPack) {
 
 function applyLanguage(lang) {
   const langPack = dictionary[lang] || dictionary.en;
-  localStorage.setItem('preferredLanguage', lang);
+  const fallbackPack = dictionary.en;
+  localStorage.setItem('preferredLanguage', langPack.meta.lang);
 
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     const key = element.getAttribute('data-i18n');
     const value = getValue(key, langPack);
-    if (typeof value === 'string') {
-      element.textContent = value;
-    }
+    const fallbackValue = getValue(key, fallbackPack);
+    element.textContent = typeof value === 'string' ? value : typeof fallbackValue === 'string' ? fallbackValue : getFallbackText(element);
   });
 
   document.querySelectorAll('[data-i18n-alt]').forEach((element) => {
     const key = element.getAttribute('data-i18n-alt');
     const value = getValue(key, langPack);
-    if (typeof value === 'string') {
-      element.setAttribute('alt', value);
-    }
+    const fallbackValue = getValue(key, fallbackPack);
+    const fallbackAttr = element.getAttribute('alt') || 'Portfolio image';
+    element.setAttribute('alt', typeof value === 'string' ? value : typeof fallbackValue === 'string' ? fallbackValue : fallbackAttr);
   });
 
   document.querySelectorAll('[data-lang-btn]').forEach((button) => {
-    const active = button.getAttribute('data-lang-btn') === lang;
+    const active = button.getAttribute('data-lang-btn') === langPack.meta.lang;
     button.setAttribute('aria-pressed', String(active));
   });
 
   updateMetadata(langPack);
 
   window.__langPack = langPack;
-  window.dispatchEvent(new CustomEvent('languagechange', { detail: { lang, langPack } }));
+  window.__translate = (key, defaultText = '') => {
+    const localized = getValue(key, window.__langPack || fallbackPack);
+    if (typeof localized === 'string') return localized;
+    const enValue = getValue(key, fallbackPack);
+    return typeof enValue === 'string' ? enValue : defaultText;
+  };
+
+  window.dispatchEvent(new CustomEvent('languagechange', { detail: { lang: langPack.meta.lang, langPack } }));
 }
 
 function getInitialLanguage() {
   const params = new URLSearchParams(window.location.search);
   const queryLang = params.get('lang');
 
-  if (queryLang === 'en' || queryLang === 'pt') {
-    return queryLang;
-  }
+  if (queryLang === 'en' || queryLang === 'pt') return queryLang;
 
   const saved = localStorage.getItem('preferredLanguage');
-  if (saved === 'en' || saved === 'pt') {
-    return saved;
-  }
+  if (saved === 'en' || saved === 'pt') return saved;
 
   return 'en';
 }
@@ -316,5 +333,6 @@ window.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  document.getElementById('year').textContent = String(new Date().getFullYear());
+  const yearNode = document.getElementById('year');
+  if (yearNode) yearNode.textContent = String(new Date().getFullYear());
 });
