@@ -50,24 +50,28 @@ The loader updates:
 
 ## How to add a new project
 
-1. **Create the project page**
-   - Copy `projects/salon-prive.html` as a template.
-   - Keep relative asset paths from `projects/` (example: `../assets/...`).
+1. **Add project images**
+   - Create `assets/img/projects/<slug>/`
+   - Place optimized images in this folder (web-friendly names, lowercase + hyphens).
 
-2. **Create bilingual dictionaries for the new page**
-   - Add `data/<new-project>.en.json`
-   - Add `data/<new-project>.pt.json`
-   - Include `meta` fields and all translation keys used by the HTML.
+2. **Create the project page**
+   - Add `projects/<slug>.html` (you can copy `projects/salon-prive.html` as a base).
+   - Keep relative paths from `projects/` (example: `../assets/...`, `../data/...`).
 
-3. **Add project cards in both languages**
+3. **Create bilingual dictionaries for the new page**
+   - Add `data/<slug>.en.json`
+   - Add `data/<slug>.pt.json`
+   - Include `meta` fields and all translation keys used by the page.
+
+4. **Add project cards in both languages**
    - Update `data/projects.en.json`
    - Update `data/projects.pt.json`
    - Add card data (`title`, `summary`, `href`, `image`, `alt`, `cta`).
 
-4. **Link check for GitHub Pages base path**
+5. **Link check for GitHub Pages base path**
    - Use relative links only (`projects/...`, `../assets/...`, `../data/...`).
    - Avoid root-absolute links like `/assets/...`.
 
-5. **Preview locally and validate**
-   - Check home card opens the new case-study page.
-   - Check EN/PT text and metadata.
+6. **Preview locally and validate**
+   - Check the home card opens the new case-study page.
+   - Check EN/PT text, metadata, gallery, and language switch on both pages.

@@ -8,6 +8,15 @@
       "image": "assets/img/hero-finished.jpg",
       "alt": "Completed Salon Privé interior booth with bar and lighting",
       "cta": "Open case study"
+    },
+    {
+      "slug": "living-room-skylight",
+      "title": "Custom Living Room – Framing, Drywall & Skylight Feature",
+      "summary": "Residential renovation in Toronto with curved ceiling framing, drywall finishing, and an integrated skylight LED feature.",
+      "href": "projects/living-room-skylight.html",
+      "image": "assets/img/projects/living-room-skylight/06-led-on-feature.jpg",
+      "alt": "Custom living room with skylight feature and LED cove lighting turned on",
+      "cta": "Open case study"
     }
   ]
 }

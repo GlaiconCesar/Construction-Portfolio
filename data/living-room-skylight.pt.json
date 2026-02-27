@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "lang": "pt-BR",
+    "title": "Sala de Estar Customizada – Frame, Drywall e Claraboia | Portfólio de Construção",
+    "description": "Reforma residencial em Toronto com forro curvo, drywall, acabamento fino e claraboia com sanca de LED integrada.",
+    "ogTitle": "Sala de Estar Customizada – Frame, Drywall e Claraboia",
+    "ogDescription": "Estudo de caso com foco em framing, drywall, apoio de equipe e acabamento final da claraboia em uma reforma residencial."
+  },
+  "a11y": { "skip": "Ir para o conteúdo principal" },
+  "site": {
+    "brand": "Portfólio de Construção",
+    "backProjects": "← Voltar aos projetos",
+    "backHome": "Início"
+  },
+  "hero": {
+    "eyebrow": "Reforma Residencial",
+    "title": "Sala de Estar Customizada – Frame, Drywall e Claraboia",
+    "summary": "Da estruturação ao acabamento fino, este projeto entregou um forro curvo customizado com integração de claraboia e efeito de iluminação em LED.",
+    "typeLabel": "Tipo",
+    "typeValue": "Reforma residencial de interiores"
+  },
+  "facts": {
+    "title": "Dados Rápidos",
+    "company": { "label": "Empresa", "value": "IMP Construction" },
+    "location": { "label": "Local", "value": "Toronto, ON" },
+    "role": { "label": "Minha Atuação", "value": "Framing, drywall, tape, apoio de equipe, gestão de materiais e reporte diário" }
+  },
+  "overview": {
+    "title": "Visão Geral",
+    "body": "Reforma residencial com execução de forro arquitetônico com curvas e integração de claraboia. O trabalho incluiu apoio no framing, instalação de drywall, acabamento (tape/massa/lixa) e suporte na coordenação das equipes, controle de materiais e reporte diário."
+  },
+  "responsibilities": {
+    "title": "Minhas Responsabilidades",
+    "items": [
+      "Apoio no framing para forro curvo e claraboia",
+      "Instalação de drywall (paredes e teto)",
+      "Tape, massa e lixamento (preparação para pintura)",
+      "Apoio na coordenação das equipes e tarefas diárias",
+      "Controle/organização de materiais e reporte diário"
+    ]
+  },
+  "narrative": {
+    "title": "Processo → Final",
+    "body": "A galeria mostra a evolução da obra: da estrutura inicial e fechamento em drywall até os detalhes de acabamento, trabalho em andaime e resultado final com iluminação ativa na claraboia."
+  },
+  "gallery": {
+    "title": "Galeria",
+    "openImage": "Abrir imagem",
+    "viewerLabel": "Visualizador de imagens",
+    "closeViewer": "Fechar visualizador",
+    "previousImage": "Imagem anterior",
+    "nextImage": "Próxima imagem"
+  },
+  "images": {
+    "hero": "Sala finalizada com claraboia customizada e iluminação em LED",
+    "framingWide": "Etapa inicial de framing no forro customizado ao redor da claraboia",
+    "drywallProgress": "Avanço da instalação de drywall na sala com abertura da claraboia",
+    "skylightBottom": "Vista inferior do framing curvo da claraboia com preparação de drywall",
+    "ceilingShape": "Detalhe superior do desenho customizado do forro ao redor da claraboia",
+    "ledPrep": "Montagem de andaime e preparação da sanca de LED da claraboia",
+    "ledOn": "Sanca de LED acesa no entorno da claraboia finalizada",
+    "interiorFinish": "Acabamento interno da claraboia com superfícies prontas para finalização",
+    "scaffoldWork": "Equipe em trabalho de acabamento com apoio de andaime",
+    "finalWide": "Vista ampla final da sala reformada com destaque para a claraboia"
+  },
+  "footer": { "rights": "Portfólio de Construção" }
+}
