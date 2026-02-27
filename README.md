@@ -10,7 +10,7 @@ Static bilingual case study page for GitHub Pages.
 - `assets/img/*` (galeria local)
 - `assets/SalonPrive-CaseStudy.pdf`
 
-Sem build step, sem framework, sem backend.
+Sem framework e sem backend (apenas geração estática de imagens).
 
 ## Preview local
 
@@ -51,3 +51,13 @@ Arquivo placeholder disponível em:
 - `assets/SalonPrive-CaseStudy.pdf`
 
 Substitua pelo PDF final quando estiver pronto.
+
+
+## Build de imagens (Sharp)
+
+Para gerar as versões otimizadas da galeria (full + thumb em JPG/WebP):
+
+```bash
+npm i
+npm run images:build
+```
