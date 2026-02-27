@@ -3,8 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Construction Portfolio</title>
-    <meta name="description" content="Construction portfolio case studies." />
+    <title data-i18n="home.meta.title" data-fallback="Construction Portfolio | Home">Construction Portfolio | Home</title>
+    <meta
+      name="description"
+      content="Explore a construction portfolio featuring project case studies, core skills, and contact information."
+      data-i18n-content="home.meta.description"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,12 +16,86 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/i18n.js"></script>
   </head>
   <body>
-    <main id="main" class="container" style="padding-top: 4rem; padding-bottom: 4rem">
-      <h1>Construction Portfolio</h1>
-      <p>Open the Salon Privé case study:</p>
-      <p><a href="projects/salon-prive.html">Salon Privé - Construction Breakdown</a></p>
+    <a class="skip-link" href="#main" data-i18n="a11y.skip" data-fallback="Skip to main content">Skip to main content</a>
+
+    <header>
+      <nav aria-label="Primary" class="container">
+        <a href="#hero" data-i18n="home.nav.hero" data-fallback="Hero">Hero</a>
+        <a href="#about" data-i18n="home.nav.about" data-fallback="About Me">About Me</a>
+        <a href="#skills" data-i18n="home.nav.skills" data-fallback="Skills">Skills</a>
+        <a href="#projects" data-i18n="home.nav.projects" data-fallback="Projects Gallery">Projects Gallery</a>
+        <a href="#contact" data-i18n="home.nav.contact" data-fallback="Contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section id="hero" class="container" aria-labelledby="hero-heading">
+        <h1 id="hero-heading" data-i18n="home.hero.title" data-fallback="Construction Portfolio">Construction Portfolio</h1>
+        <p data-i18n="home.hero.body" data-fallback="Crafting premium spaces through precision framing, custom structures, and clean finishes.">
+          Crafting premium spaces through precision framing, custom structures, and clean finishes.
+        </p>
+        <a href="#projects" data-i18n="home.hero.cta" data-fallback="View Projects">View Projects</a>
+      </section>
+
+      <section id="about" class="container" aria-labelledby="about-heading">
+        <h2 id="about-heading" data-i18n="home.about.title" data-fallback="About Me">About Me</h2>
+        <p
+          data-i18n="home.about.body"
+          data-fallback="I focus on delivering high-quality construction work for hospitality and interior fit-out environments, balancing speed, safety, and detailed execution."
+        >
+          I focus on delivering high-quality construction work for hospitality and interior fit-out environments, balancing speed, safety, and detailed execution.
+        </p>
+      </section>
+
+      <section id="skills" class="container" aria-labelledby="skills-heading">
+        <h2 id="skills-heading" data-i18n="home.skills.title" data-fallback="Skills">Skills</h2>
+        <ul>
+          <li data-i18n="home.skills.items.0" data-fallback="Steel stud framing and layout">Steel stud framing and layout</li>
+          <li data-i18n="home.skills.items.1" data-fallback="Curved feature construction">Curved feature construction</li>
+          <li data-i18n="home.skills.items.2" data-fallback="Material prep and surface finishing">Material prep and surface finishing</li>
+          <li data-i18n="home.skills.items.3" data-fallback="On-site trade coordination">On-site trade coordination</li>
+        </ul>
+      </section>
+
+      <section id="projects" class="container" aria-labelledby="projects-heading">
+        <h2 id="projects-heading" data-i18n="home.projects.title" data-fallback="Projects Gallery">Projects Gallery</h2>
+        <div>
+          <article aria-labelledby="project-salon-title">
+            <h3 id="project-salon-title" data-i18n="home.projects.salon.title" data-fallback="Salon Privé - Construction Breakdown">
+              Salon Privé - Construction Breakdown
+            </h3>
+            <p
+              data-i18n="home.projects.salon.body"
+              data-fallback="A detailed case study covering framing systems, curved forms, and premium finish coordination."
+            >
+              A detailed case study covering framing systems, curved forms, and premium finish coordination.
+            </p>
+            <a href="projects/salon-prive.html" data-i18n="home.projects.salon.link" data-fallback="Open Case Study">Open Case Study</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="container" aria-labelledby="contact-heading">
+        <h2 id="contact-heading" data-i18n="home.contact.title" data-fallback="Contact">Contact</h2>
+        <p data-i18n="home.contact.body" data-fallback="Let’s collaborate on your next construction or interior build project.">
+          Let’s collaborate on your next construction or interior build project.
+        </p>
+        <a href="mailto:contact@example.com" data-i18n="home.contact.cta" data-fallback="Send me an email">Send me an email</a>
+      </section>
     </main>
+
+    <footer class="container">
+      <p>
+        © <span id="year"></span>
+        <span data-i18n="home.footer.rights" data-fallback="Construction Portfolio">Construction Portfolio</span>
+      </p>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
