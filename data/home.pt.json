@@ -1,0 +1,53 @@
+{
+  "a11y": {
+    "skip": "Pular para o conteúdo principal"
+  },
+  "home": {
+    "meta": {
+      "lang": "pt",
+      "title": "Portfólio de Construção | Início",
+      "description": "Explore um portfólio de construção com estudos de caso, competências principais e informações de contato."
+    },
+    "nav": {
+      "hero": "Início",
+      "about": "Sobre Mim",
+      "skills": "Competências",
+      "projects": "Galeria de Projetos",
+      "contact": "Contato"
+    },
+    "hero": {
+      "title": "Portfólio de Construção",
+      "body": "Criando espaços premium com precisão em estrutura, formas personalizadas e acabamento limpo.",
+      "cta": "Ver Projetos"
+    },
+    "about": {
+      "title": "Sobre Mim",
+      "body": "Meu foco é entregar construção de alta qualidade para ambientes de hospitalidade e fit-out interno, equilibrando velocidade, segurança e execução detalhada."
+    },
+    "skills": {
+      "title": "Competências",
+      "items": [
+        "Traçado e montagem de steel stud",
+        "Construção de elementos curvos",
+        "Preparo de materiais e acabamento de superfícies",
+        "Coordenação de equipes em obra"
+      ]
+    },
+    "projects": {
+      "title": "Galeria de Projetos",
+      "salon": {
+        "title": "Salon Privé - Detalhamento Construtivo",
+        "body": "Estudo de caso detalhado cobrindo sistemas de estrutura, formas curvas e coordenação de acabamento premium.",
+        "link": "Abrir Estudo de Caso"
+      }
+    },
+    "contact": {
+      "title": "Contato",
+      "body": "Vamos colaborar no seu próximo projeto de construção ou obra de interiores.",
+      "cta": "Enviar e-mail"
+    },
+    "footer": {
+      "rights": "Portfólio de Construção"
+    }
+  }
+}

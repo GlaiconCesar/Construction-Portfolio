@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "meta": {
+      "lang": "en",
+      "title": "Construction Portfolio | Projects",
+      "description": "Browse construction project case studies and technical build breakdowns."
+    },
+    "labels": {
+      "caseStudy": "Case Study",
+      "open": "Open"
+    },
+    "salonPrive": {
+      "name": "Salon Privé",
+      "slug": "salon-prive",
+      "title": "Salon Privé - Construction Breakdown"
+    }
+  }
+}
