@@ -1,116 +1,41 @@
 {
   "meta": {
     "lang": "en",
-    "title": "Salon Privé - Construction Breakdown | Living Luxe Design Show 2024",
-    "description": "Case study of Salon Privé at the Living Luxe Design Show 2024, covering framing, steel stud layout, curved feature execution, and finish coordination.",
-    "ogTitle": "Salon Privé - Construction Breakdown",
-    "ogDescription": "Bilingual construction case study: modular trade show build, structural system, curved framing technique, and finishing coordination."
+    "title": "Salon Privé Case Study | Construction Portfolio",
+    "description": "Detailed construction case study of Salon Privé at Living Luxe Design Show 2024.",
+    "ogTitle": "Salon Privé Case Study",
+    "ogDescription": "Framing strategy, curved feature execution, and finish coordination for a premium event booth."
   },
-  "a11y": {
-    "skip": "Skip to main content"
+  "a11y": { "skip": "Skip to main content" },
+  "site": {
+    "brand": "Construction Portfolio",
+    "backHome": "← Back to home"
   },
   "hero": {
-    "kicker": "Construction Breakdown",
     "eyebrow": "Living Luxe Design Show 2024",
     "title": "Salon Privé - Construction Breakdown",
-    "summary": "This case study documents a modular and demountable trade show build executed under strict event deadlines. The work focused on framing precision, curved front geometry, and clean coordination with design and finishing trades."
-  },
-  "summary": {
-    "title": "Project Summary",
-    "body": "Salon Privé united hospitality-grade aesthetics and practical event construction. The project required disciplined sequencing, dimensional accuracy, and premium finish readiness in a temporary venue setup."
+    "summary": "This case study documents how the booth was framed and prepared for premium finishes under tight event deadlines."
   },
   "facts": {
     "title": "Project Facts",
-    "event": {
-      "label": "Event",
-      "value": "Living Luxe Design Show 2024"
-    },
-    "design": {
-      "label": "Design",
-      "value": "Wise Nadel Design"
-    },
-    "execution": {
-      "label": "Execution",
-      "value": "IMP Construction Group"
-    },
-    "role": {
-      "label": "Role",
-      "value": "Framing & Interior Build Support"
-    },
-    "location": {
-      "label": "Location",
-      "value": "Canada"
-    },
-    "materials": {
-      "label": "Materials",
-      "value": "Light-gauge steel studs, plywood, 1/4\" raw MDF"
-    }
+    "event": { "label": "Event", "value": "Living Luxe Design Show 2024" },
+    "design": { "label": "Design", "value": "Wise Nadel Design" },
+    "execution": { "label": "Execution", "value": "IMP Construction Group" },
+    "role": { "label": "Role", "value": "Framing & Interior Build Support" },
+    "location": { "label": "Location", "value": "Canada" }
   },
-  "overview": {
-    "title": "Project Overview",
-    "body": "Salon Privé was delivered as a premium hospitality-style environment inside a temporary event venue. The construction approach required fast assembly, dimensional control, and detailing that could support high-end finishes while remaining compatible with trade show logistics and teardown requirements."
+  "summary": {
+    "title": "Project Summary",
+    "body": "Salon Privé combined hospitality-style design with practical event construction. The build required accurate layout, efficient sequencing, and close collaboration with finishing trades."
   },
   "scope": {
-    "title": "Scope of Work (My Contribution)",
+    "title": "Scope of Work",
     "items": [
-      "Supported layout and assembly of light-gauge steel framing for perimeter walls and upper structure.",
-      "Assisted with base platform preparation using plywood for stability and finish support.",
-      "Contributed to curved front feature framing, including segmented/cut track setup and stud spacing adjustments.",
-      "Coordinated framing interfaces with finishing and millwork teams to keep handoff clean and on schedule."
+      "Framing layout and assembly for walls and overhead elements.",
+      "Base platform support and substrate preparation.",
+      "Curved front feature framing with segmented tracks.",
+      "Coordination with finishing and millwork teams."
     ]
-  },
-  "structure": {
-    "title": "Structural System Breakdown",
-    "base": {
-      "title": "Base Platform",
-      "body": "The platform used plywood as the primary substrate, selected for rigidity, fastening reliability, and tolerance control across high-traffic zones. It provided a stable base for wall lines, furniture integration, and final finish interfaces."
-    },
-    "wall": {
-      "title": "Wall & Upper Framing",
-      "body": "Walls and overhead structure were framed with light-gauge steel studs, supporting both straight and curved conditions. This system balanced speed, repeatability, and clean geometry for architectural finishes."
-    }
-  },
-  "curve": {
-    "title": "Curved Front Feature - Technical Execution",
-    "steps": [
-      "Segmented track (kerf-style cuts) was laid out to define the front radius accurately.",
-      "Stud spacing was tightened along the curve to maintain shape control and reduce flat spotting.",
-      "Local reinforcement was added where load transfer and edge stability were required.",
-      "A 1/4\" (6 mm) raw MDF skin was installed over the framed arc to create a smooth continuous surface ready for finish prep."
-    ]
-  },
-  "mdf": {
-    "title": "Material Selection - Why 1/4\" Raw MDF?",
-    "items": [
-      "Thin MDF bends more predictably over curved framing than thicker boards, improving contour continuity.",
-      "Raw MDF supports precise shaping and clean joint transitions in premium interior applications.",
-      "Best practice: raw MDF is absorbent and should be sealed/primed properly before final finishing to control porosity and protect surface quality."
-    ]
-  },
-  "finish": {
-    "title": "Surface Preparation & Finishing Coordination",
-    "body": "Before final finishes, surfaces were aligned, fastener points treated, and transitions reviewed with finishing and millwork teams. Coordination focused on maintaining design intent, reducing rework risk, and meeting quality expectations under event deadlines."
-  },
-  "constraints": {
-    "title": "Construction Constraints",
-    "items": [
-      "Compressed schedule with fixed show opening date and strict sequencing windows.",
-      "Multi-trade coordination in a temporary venue with limited install space and active logistics.",
-      "Need for demountable construction strategy while preserving premium visual quality."
-    ]
-  },
-  "skills": {
-    "title": "Skills Demonstrated",
-    "items": [
-      "Light-gauge steel framing layout and execution",
-      "Curved wall geometry and segmented track application",
-      "Material behavior awareness (MDF + plywood in finish-sensitive assemblies)",
-      "Site coordination with design, finishing, and millwork trades"
-    ]
-  },
-  "positioning": {
-    "title": "Professional Positioning",
-    "body": "This project supports roles in interior framing, trade show construction, premium retail/hospitality fit-outs, and site coordination positions requiring disciplined execution under schedule pressure."
   },
   "gallery": {
     "title": "Image Gallery",
@@ -121,14 +46,14 @@
     "previousImage": "Previous image",
     "nextImage": "Next image"
   },
-  "img_hero": "Hero finished luxury booth interior",
-  "img_bar": "Green stone bar feature detail",
-  "img_wine": "Illuminated wine display wall",
-  "img_framing_arch": "Metal framing during curved structure build",
-  "img_shell": "Exterior shell nearing completion",
-  "img_framing_curve": "Steel stud curved wall framing",
-  "img_brand": "Wise Nadel Design Salon Privé branding",
-  "footer": {
-    "rights": "Construction Portfolio"
-  }
+  "images": {
+    "hero": "Completed Salon Privé interior booth",
+    "bar": "Green stone bar feature detail",
+    "wine": "Backlit wine display wall",
+    "framingArch": "Curved steel framing during assembly",
+    "shell": "Exterior shell nearing completion",
+    "framingCurve": "Curved wall steel stud framing",
+    "brand": "Salon Privé branding panel"
+  },
+  "footer": { "rights": "Construction Portfolio" }
 }

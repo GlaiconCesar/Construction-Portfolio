@@ -1,11 +1,13 @@
+const assetPrefix = window.location.pathname.includes('/projects/') ? '../' : '';
+
 const galleryItems = [
-  { src: '../assets/img/hero-finished.jpg', altKey: 'img_hero' },
-  { src: '../assets/img/bar-feature.jpg', altKey: 'img_bar' },
-  { src: '../assets/img/wine-wall.jpg', altKey: 'img_wine' },
-  { src: '../assets/img/build-framing-arch.jpg', altKey: 'img_framing_arch' },
-  { src: '../assets/img/build-finished-shell.jpg', altKey: 'img_shell' },
-  { src: '../assets/img/build-framing-curved-wall.jpg', altKey: 'img_framing_curve' },
-  { src: '../assets/img/brand-wn-salon-prive.jpg', altKey: 'img_brand' }
+  { src: `${assetPrefix}assets/img/hero-finished.jpg`, altKey: 'images.hero' },
+  { src: `${assetPrefix}assets/img/bar-feature.jpg`, altKey: 'images.bar' },
+  { src: `${assetPrefix}assets/img/wine-wall.jpg`, altKey: 'images.wine' },
+  { src: `${assetPrefix}assets/img/build-framing-arch.jpg`, altKey: 'images.framingArch' },
+  { src: `${assetPrefix}assets/img/build-finished-shell.jpg`, altKey: 'images.shell' },
+  { src: `${assetPrefix}assets/img/build-framing-curved-wall.jpg`, altKey: 'images.framingCurve' },
+  { src: `${assetPrefix}assets/img/brand-wn-salon-prive.jpg`, altKey: 'images.brand' }
 ];
 
 let activeIndex = 0;
@@ -32,7 +34,7 @@ function createGalleryCard(item, index) {
 
   const img = document.createElement('img');
   img.src = item.src;
-  img.alt = t(item.altKey, 'Portfolio image');
+  img.alt = t(item.altKey, 'Project image');
   img.loading = 'lazy';
   img.decoding = 'async';
   img.setAttribute('data-i18n-alt', item.altKey);
@@ -83,7 +85,7 @@ function updateModalImage() {
   if (!modalImage || !caption) return;
 
   const item = galleryItems[activeIndex];
-  const translatedAlt = t(item.altKey, 'Portfolio image');
+  const translatedAlt = t(item.altKey, 'Project image');
   modalImage.src = item.src;
   modalImage.alt = translatedAlt;
   caption.textContent = translatedAlt;
@@ -145,11 +147,10 @@ function showPrev() {
 function setupRevealAnimation() {
   const cards = document.querySelectorAll('.gallery-reveal');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  const supportsIntersectionObserver = typeof window.IntersectionObserver === 'function';
 
   if (revealObserver) revealObserver.disconnect();
 
-  if (reducedMotion || !supportsIntersectionObserver) {
+  if (reducedMotion) {
     cards.forEach((card) => card.classList.add('is-visible'));
     return;
   }
@@ -186,9 +187,7 @@ function setupGalleryEvents() {
       return;
     }
 
-    if (event.target.closest('[data-modal-prev]')) {
-      showPrev();
-    }
+    if (event.target.closest('[data-modal-prev]')) showPrev();
   });
 
   document.addEventListener('keydown', (event) => {
@@ -208,7 +207,7 @@ window.addEventListener('languagechange', () => {
 
   document.querySelectorAll('[data-i18n-alt]').forEach((img) => {
     const key = img.getAttribute('data-i18n-alt');
-    if (key) img.setAttribute('alt', t(key, 'Portfolio image'));
+    if (key) img.setAttribute('alt', t(key, 'Project image'));
   });
 
   updateModalLabels();
