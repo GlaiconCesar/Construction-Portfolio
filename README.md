@@ -1,10 +1,23 @@
-# Construction Portfolio (EN/PT)
+# Construction Portfolio (EN / PT-BR)
 
-Static bilingual portfolio site for GitHub Pages.
+Static portfolio website for GitHub Pages branch deployment:
+
+- Base URL: `https://glaiconcesar.github.io/Construction-Portfolio/`
+- No framework, no backend
+- Language support: English + Brazilian Portuguese
+
+## Project structure
+
+- `index.html` - Home page (Hero, About Me, Skills, Projects Gallery, Contact)
+- `projects/salon-prive.html` - Salon Privé case study page
+- `data/home.en.json` + `data/home.pt.json` - Home page translations
+- `data/salon-prive.en.json` + `data/salon-prive.pt.json` - Case study translations
+- `data/projects.en.json` + `data/projects.pt.json` - Localized project cards
+- `assets/js/i18n.js` - Page-aware translation loader and metadata updater
+- `assets/js/gallery.js` - Salon Privé image gallery and modal viewer
+- `assets/css/styles.css` - Shared styles
 
 ## Local preview
-
-Run a local static server from the repository root:
 
 ```bash
 python -m http.server 8000
@@ -12,35 +25,49 @@ python -m http.server 8000
 
 Open:
 
-- `http://localhost:8000/` (default EN)
-- `http://localhost:8000/?lang=pt` (forces Portuguese)
+- `http://localhost:8000/Construction-Portfolio/` (if served from parent folder), or
+- `http://localhost:8000/` (if served from repo root)
 
-## Site structure
+Language query examples:
 
-- `index.html`: home/portfolio landing page
-- `projects/`: individual project pages (for example, `projects/salon-prive.html`)
-- `data/*.json`: bilingual content sources (project cards and per-page dictionaries)
-- Shared assets/scripts:
-  - `assets/css/`: global styling
-  - `assets/js/`: shared behavior (i18n, gallery, etc.)
-  - `assets/img/`: reusable images/icons
+- `?lang=en`
+- `?lang=pt`
 
-## Add a new project
+## Language behaviour
 
-1. **Copy a project page template in `projects/`.**
-   - Duplicate an existing project page and adapt structure/content.
-2. **Create EN/PT page JSON dictionaries.**
-   - Add matching translation keys for the new page content.
-3. **Add the project card entry in both list files.**
-   - Update `data/projects.en.json` and `data/projects.pt.json` with the new card metadata/link.
-4. **Confirm relative links/assets for GitHub Pages compatibility.**
-   - Validate paths from both `index.html` and `/projects/...` pages so they work under a repository base path.
+Language selection priority:
 
-## Image build (Sharp)
+1. URL query parameter `?lang=en|pt`
+2. `localStorage.preferredLanguage`
+3. default `en`
 
-To generate optimized gallery images (full + thumb in JPG/WebP):
+The loader updates:
 
-```bash
-npm i
-npm run images:build
-```
+- page text via `data-i18n`
+- image alt text via `data-i18n-alt`
+- metadata (`<title>`, description, Open Graph fields)
+- `<html lang>` (`en` or `pt-BR`)
+
+## How to add a new project
+
+1. **Create the project page**
+   - Copy `projects/salon-prive.html` as a template.
+   - Keep relative asset paths from `projects/` (example: `../assets/...`).
+
+2. **Create bilingual dictionaries for the new page**
+   - Add `data/<new-project>.en.json`
+   - Add `data/<new-project>.pt.json`
+   - Include `meta` fields and all translation keys used by the HTML.
+
+3. **Add project cards in both languages**
+   - Update `data/projects.en.json`
+   - Update `data/projects.pt.json`
+   - Add card data (`title`, `summary`, `href`, `image`, `alt`, `cta`).
+
+4. **Link check for GitHub Pages base path**
+   - Use relative links only (`projects/...`, `../assets/...`, `../data/...`).
+   - Avoid root-absolute links like `/assets/...`.
+
+5. **Preview locally and validate**
+   - Check home card opens the new case-study page.
+   - Check EN/PT text and metadata.

@@ -526,3 +526,69 @@ ol {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+.main-nav {
+  display: none;
+  gap: 0.9rem;
+}
+
+.main-nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+
+.main-nav a:hover,
+.main-nav a:focus-visible {
+  color: var(--gold);
+}
+
+.home-main {
+  display: grid;
+  gap: 1rem;
+}
+
+.hero-home {
+  margin-bottom: 0;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 1rem;
+}
+
+.project-card {
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 0.85rem;
+  background: var(--surface-2);
+  display: grid;
+  gap: 0.7rem;
+}
+
+.project-card img {
+  border-radius: 0.75rem;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+}
+
+.back-link {
+  color: var(--gold);
+  text-decoration: none;
+  font-size: 0.92rem;
+}
+
+.site-footer {
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 52rem) {
+  .main-nav {
+    display: inline-flex;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

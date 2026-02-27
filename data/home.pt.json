@@ -1,53 +1,48 @@
 {
-  "a11y": {
-    "skip": "Pular para o conteúdo principal"
+  "meta": {
+    "lang": "pt-BR",
+    "title": "Portfólio de Construção | Início",
+    "description": "Portfólio pessoal de construção com estudos de caso, competências de obra e galeria de projetos.",
+    "ogTitle": "Portfólio de Construção | Início",
+    "ogDescription": "Conheça estudos de caso e experiências de execução de obras no Canadá."
   },
-  "home": {
-    "meta": {
-      "lang": "pt",
-      "title": "Portfólio de Construção | Início",
-      "description": "Explore um portfólio de construção com estudos de caso, competências principais e informações de contato."
-    },
-    "nav": {
-      "hero": "Início",
-      "about": "Sobre Mim",
-      "skills": "Competências",
-      "projects": "Galeria de Projetos",
-      "contact": "Contato"
-    },
-    "hero": {
-      "title": "Portfólio de Construção",
-      "body": "Criando espaços premium com precisão em estrutura, formas personalizadas e acabamento limpo.",
-      "cta": "Ver Projetos"
-    },
-    "about": {
-      "title": "Sobre Mim",
-      "body": "Meu foco é entregar construção de alta qualidade para ambientes de hospitalidade e fit-out interno, equilibrando velocidade, segurança e execução detalhada."
-    },
-    "skills": {
-      "title": "Competências",
-      "items": [
-        "Traçado e montagem de steel stud",
-        "Construção de elementos curvos",
-        "Preparo de materiais e acabamento de superfícies",
-        "Coordenação de equipes em obra"
-      ]
-    },
-    "projects": {
-      "title": "Galeria de Projetos",
-      "salon": {
-        "title": "Salon Privé - Detalhamento Construtivo",
-        "body": "Estudo de caso detalhado cobrindo sistemas de estrutura, formas curvas e coordenação de acabamento premium.",
-        "link": "Abrir Estudo de Caso"
-      }
-    },
-    "contact": {
-      "title": "Contato",
-      "body": "Vamos colaborar no seu próximo projeto de construção ou obra de interiores.",
-      "cta": "Enviar e-mail"
-    },
-    "footer": {
-      "rights": "Portfólio de Construção"
-    }
-  }
+  "a11y": { "skip": "Ir para o conteúdo principal" },
+  "site": { "brand": "Portfólio de Construção" },
+  "nav": {
+    "hero": "Início",
+    "about": "Sobre mim",
+    "skills": "Competências",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "eyebrow": "Portfólio Pessoal",
+    "title": "Projetos de construção entregues com precisão e confiança.",
+    "summary": "Executo espaços internos com padrão elevado, foco em estrutura metálica, controle de prazo e integração limpa entre equipes.",
+    "cta": "Ver projetos",
+    "imageAlt": "Projeto interno premium concluído com iluminação aconchegante"
+  },
+  "about": {
+    "title": "Sobre mim",
+    "body": "Sou profissional da construção com foco em fit-out interno, montagens para eventos e execução de obra orientada a detalhes. Uno conhecimento técnico de estrutura com coordenação de campo para manter o cronograma com segurança e qualidade."
+  },
+  "skills": {
+    "title": "Competências",
+    "items": [
+      "Traçado e montagem em steel frame leve",
+      "Execução de elementos curvos e detalhamento",
+      "Preparo de materiais para acabamentos premium",
+      "Coordenação de equipes sob cronograma apertado"
+    ]
+  },
+  "projects": {
+    "title": "Galeria de Projetos",
+    "intro": "Abra um estudo de caso para ver escopo, execução e decisões técnicas."
+  },
+  "contact": {
+    "title": "Contato",
+    "body": "Se você precisa de apoio em projetos de fit-out ou construção para eventos, vamos conversar.",
+    "cta": "Enviar e-mail"
+  },
+  "footer": { "rights": "Portfólio de Construção" }
 }
