@@ -22,6 +22,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
+    <script defer src="assets/js/i18n.js"></script>
   </head>
   <body>
     <a class="skip-link" href="#main" data-i18n="a11y.skip" data-fallback="Skip to main content">Skip to main content</a>
@@ -67,18 +68,11 @@
 
       <section id="projects" class="container" aria-labelledby="projects-heading">
         <h2 id="projects-heading" data-i18n="home.projects.title" data-fallback="Projects Gallery">Projects Gallery</h2>
-        <div>
+        <div id="projects-gallery" class="projects-gallery">
           <article aria-labelledby="project-salon-title">
-            <h3 id="project-salon-title" data-i18n="home.projects.salon.title" data-fallback="Salon Privé - Construction Breakdown">
-              Salon Privé - Construction Breakdown
-            </h3>
-            <p
-              data-i18n="home.projects.salon.body"
-              data-fallback="A detailed case study covering framing systems, curved forms, and premium finish coordination."
-            >
-              A detailed case study covering framing systems, curved forms, and premium finish coordination.
-            </p>
-            <a href="projects/salon-prive.html" data-i18n="home.projects.salon.link" data-fallback="Open Case Study">Open Case Study</a>
+            <h3 id="project-salon-title">Salon Privé - Construction Breakdown</h3>
+            <p>A detailed case study covering framing systems, curved forms, and premium finish coordination.</p>
+            <a href="projects/salon-prive.html">Open Case Study</a>
           </article>
         </div>
       </section>
@@ -100,5 +94,9 @@
     </footer>
 
     <script defer src="assets/js/i18n.js"></script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+      <script src="assets/js/projects-gallery.js"></script>
   </body>
 </html>

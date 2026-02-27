@@ -466,3 +466,63 @@ ol {
     transition: none;
   }
 }
+
+.projects-gallery {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+.project-card {
+  border: 1px solid var(--line);
+  border-radius: 0.85rem;
+  background: var(--surface-2);
+  padding: 0.9rem;
+}
+
+.project-card-link {
+  text-decoration: none;
+}
+
+.project-card-link img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 0.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.project-card-link h3 {
+  margin-top: 0;
+}
+
+.project-status {
+  margin-bottom: 0.5rem;
+  color: var(--gold);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.project-tags {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  padding: 0;
+  margin: 0;
+}
+
+.project-tags li {
+  border: 1px solid var(--line-gold);
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+  font-size: 0.8rem;
+}
+
+@media (min-width: 48rem) {
+  .projects-gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

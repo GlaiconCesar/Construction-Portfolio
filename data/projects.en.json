@@ -1,0 +1,29 @@
+{
+  "cards": [
+    {
+      "title": "Salon Privé - Construction Breakdown",
+      "shortDescription": "A detailed case study covering framing systems, curved forms, and premium finish coordination.",
+      "href": "projects/salon-prive.html",
+      "thumbnail": "assets/img/hero-finished.jpg",
+      "alt": "Finished interior of the Salon Privé showcase with curved architectural details",
+      "tags": ["Case Study", "Hospitality", "Curved Framing"],
+      "status": "Completed"
+    }
+  ]
+  "projects": {
+    "meta": {
+      "lang": "en",
+      "title": "Construction Portfolio | Projects",
+      "description": "Browse construction project case studies and technical build breakdowns."
+    },
+    "labels": {
+      "caseStudy": "Case Study",
+      "open": "Open"
+    },
+    "salonPrive": {
+      "name": "Salon Privé",
+      "slug": "salon-prive",
+      "title": "Salon Privé - Construction Breakdown"
+    }
+  }
+}

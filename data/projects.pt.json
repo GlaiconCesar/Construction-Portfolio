@@ -1,0 +1,29 @@
+{
+  "cards": [
+    {
+      "title": "Salon Privé - Detalhamento Construtivo",
+      "shortDescription": "Um estudo de caso detalhado sobre sistemas de estrutura, formas curvas e coordenação de acabamento premium.",
+      "href": "projects/salon-prive.html",
+      "thumbnail": "assets/img/hero-finished.jpg",
+      "alt": "Interior finalizado do espaço Salon Privé com detalhes arquitetônicos curvos",
+      "tags": ["Estudo de Caso", "Hospitalidade", "Estrutura Curva"],
+      "status": "Concluído"
+    }
+  ]
+  "projects": {
+    "meta": {
+      "lang": "pt",
+      "title": "Portfólio de Construção | Projetos",
+      "description": "Explore estudos de caso e detalhamentos técnicos de projetos construtivos."
+    },
+    "labels": {
+      "caseStudy": "Estudo de Caso",
+      "open": "Abrir"
+    },
+    "salonPrive": {
+      "name": "Salon Privé",
+      "slug": "salon-prive",
+      "title": "Salon Privé - Detalhamento Construtivo"
+    }
+  }
+}
