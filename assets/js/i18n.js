@@ -97,7 +97,12 @@ const dictionary = {
     },
     gallery: {
       title: 'Image Gallery',
-      download: 'Download PDF Case Study (Placeholder)'
+      download: 'Download PDF Case Study (Placeholder)',
+      openImage: 'Open image',
+      viewerLabel: 'Image viewer',
+      closeViewer: 'Close viewer',
+      previousImage: 'Previous image',
+      nextImage: 'Next image'
     },
     img_hero: 'Hero finished luxury booth interior',
     img_bar: 'Green stone bar feature detail',
@@ -208,7 +213,12 @@ const dictionary = {
     },
     gallery: {
       title: 'Galeria de Imagens',
-      download: 'Baixar PDF do Estudo de Caso (Placeholder)'
+      download: 'Baixar PDF do Estudo de Caso (Placeholder)',
+      openImage: 'Abrir imagem',
+      viewerLabel: 'Visualizador de imagens',
+      closeViewer: 'Fechar visualizador',
+      previousImage: 'Imagem anterior',
+      nextImage: 'Próxima imagem'
     },
     img_hero: 'Interior finalizado do booth de luxo',
     img_bar: 'Detalhe do bar em pedra verde',

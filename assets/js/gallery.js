@@ -14,6 +14,10 @@ const fullSizes = '90vw';
 let activeIndex = 0;
 let revealObserver;
 
+function getCopy() {
+  return window.__langPack?.gallery || {};
+}
+
 function createGalleryCard(item, index) {
   const figure = document.createElement('figure');
   figure.className = 'gallery-card gallery-reveal';
@@ -22,7 +26,7 @@ function createGalleryCard(item, index) {
   trigger.type = 'button';
   trigger.className = 'gallery-trigger';
   trigger.setAttribute('data-gallery-index', String(index));
-  trigger.setAttribute('aria-label', 'Open image');
+  trigger.setAttribute('aria-label', getCopy().openImage || 'Open image');
 
   const picture = document.createElement('picture');
 
@@ -37,7 +41,7 @@ function createGalleryCard(item, index) {
   jpgSource.sizes = thumbSizes;
 
   const img = document.createElement('img');
-  img.src = `assets/img/${item.baseName}.jpg`;
+  img.src = `assets/img/${item.baseName}-thumb-480.jpg`;
   img.alt = '';
   img.loading = index === 0 ? 'eager' : 'lazy';
   img.decoding = 'async';
@@ -76,7 +80,7 @@ function buildFullPicture(item, altText) {
   jpgSource.sizes = fullSizes;
 
   const img = document.createElement('img');
-  img.src = `assets/img/${item.baseName}.jpg`;
+  img.src = `assets/img/${item.baseName}-full-960.jpg`;
   img.alt = altText;
   img.loading = 'lazy';
   img.decoding = 'async';
@@ -86,16 +90,17 @@ function buildFullPicture(item, altText) {
 }
 
 function createModal() {
+  const copy = getCopy();
   const modal = document.createElement('div');
   modal.className = 'gallery-modal';
   modal.setAttribute('aria-hidden', 'true');
   modal.innerHTML = `
     <div class="gallery-modal-backdrop" data-modal-close></div>
-    <div class="gallery-modal-dialog" role="dialog" aria-modal="true" aria-label="Image viewer">
-      <button type="button" class="gallery-modal-close" data-modal-close aria-label="Close viewer">×</button>
-      <button type="button" class="gallery-modal-nav gallery-modal-prev" data-modal-prev aria-label="Previous image">‹</button>
+    <div class="gallery-modal-dialog" role="dialog" aria-modal="true" aria-label="${copy.viewerLabel || 'Image viewer'}">
+      <button type="button" class="gallery-modal-close" data-modal-close aria-label="${copy.closeViewer || 'Close viewer'}">×</button>
+      <button type="button" class="gallery-modal-nav gallery-modal-prev" data-modal-prev aria-label="${copy.previousImage || 'Previous image'}">‹</button>
       <div class="gallery-modal-media" id="gallery-modal-media"></div>
-      <button type="button" class="gallery-modal-nav gallery-modal-next" data-modal-next aria-label="Next image">›</button>
+      <button type="button" class="gallery-modal-nav gallery-modal-next" data-modal-next aria-label="${copy.nextImage || 'Next image'}">›</button>
     </div>
   `;
 
@@ -130,6 +135,22 @@ function updateModalImage() {
 
   modalMedia.innerHTML = '';
   modalMedia.appendChild(buildFullPicture(item, altText));
+}
+
+function updateModalLabels() {
+  const modal = document.querySelector('.gallery-modal');
+  if (!modal) return;
+
+  const copy = getCopy();
+  const dialog = modal.querySelector('.gallery-modal-dialog');
+  const closeButton = modal.querySelector('[data-modal-close].gallery-modal-close');
+  const prevButton = modal.querySelector('[data-modal-prev]');
+  const nextButton = modal.querySelector('[data-modal-next]');
+
+  if (dialog) dialog.setAttribute('aria-label', copy.viewerLabel || 'Image viewer');
+  if (closeButton) closeButton.setAttribute('aria-label', copy.closeViewer || 'Close viewer');
+  if (prevButton) prevButton.setAttribute('aria-label', copy.previousImage || 'Previous image');
+  if (nextButton) nextButton.setAttribute('aria-label', copy.nextImage || 'Next image');
 }
 
 function showNext() {
@@ -204,6 +225,15 @@ function setupGalleryEvents() {
 }
 
 window.addEventListener('languagechange', () => {
+  const container = document.getElementById('gallery-grid');
+  if (container?.children.length) {
+    container.querySelectorAll('[data-gallery-index]').forEach((trigger) => {
+      trigger.setAttribute('aria-label', getCopy().openImage || 'Open image');
+    });
+  }
+
+  updateModalLabels();
+
   const modalOpen = document.querySelector('.gallery-modal.is-open');
   if (modalOpen) updateModalImage();
 });
