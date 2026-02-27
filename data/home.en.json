@@ -1,0 +1,53 @@
+{
+  "a11y": {
+    "skip": "Skip to main content"
+  },
+  "home": {
+    "meta": {
+      "lang": "en",
+      "title": "Construction Portfolio | Home",
+      "description": "Explore a construction portfolio featuring project case studies, core skills, and contact information."
+    },
+    "nav": {
+      "hero": "Hero",
+      "about": "About Me",
+      "skills": "Skills",
+      "projects": "Projects Gallery",
+      "contact": "Contact"
+    },
+    "hero": {
+      "title": "Construction Portfolio",
+      "body": "Crafting premium spaces through precision framing, custom structures, and clean finishes.",
+      "cta": "View Projects"
+    },
+    "about": {
+      "title": "About Me",
+      "body": "I focus on delivering high-quality construction work for hospitality and interior fit-out environments, balancing speed, safety, and detailed execution."
+    },
+    "skills": {
+      "title": "Skills",
+      "items": [
+        "Steel stud framing and layout",
+        "Curved feature construction",
+        "Material prep and surface finishing",
+        "On-site trade coordination"
+      ]
+    },
+    "projects": {
+      "title": "Projects Gallery",
+      "salon": {
+        "title": "Salon Privé - Construction Breakdown",
+        "body": "A detailed case study covering framing systems, curved forms, and premium finish coordination.",
+        "link": "Open Case Study"
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "body": "Let’s collaborate on your next construction or interior build project.",
+      "cta": "Send me an email"
+    },
+    "footer": {
+      "rights": "Construction Portfolio"
+    }
+  }
+}
