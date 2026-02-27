@@ -1,13 +1,20 @@
 const dictionary = {
   en: {
     meta: {
-      lang: 'en',
-      title: 'Salon Privé - Construction Breakdown | Living Luxe Design Show 2024',
-      description:
-        'Case study of Salon Privé at the Living Luxe Design Show 2024, covering framing, steel stud layout, curved feature execution, and finish coordination.',
-      ogTitle: 'Salon Privé - Construction Breakdown',
-      ogDescription:
-        'Bilingual construction case study: modular trade show build, structural system, curved framing technique, and finishing coordination.'
+      home: {
+        title: 'Construction Portfolio | Home',
+        description: 'Explore a construction portfolio featuring project case studies, core skills, and contact information.',
+        ogTitle: 'Construction Portfolio | Home',
+        ogDescription: 'Discover construction case studies, practical build expertise, and project highlights.'
+      },
+      salonPrive: {
+        title: 'Salon Privé - Construction Breakdown | Living Luxe Design Show 2024',
+        description:
+          'Case study of Salon Privé at the Living Luxe Design Show 2024, covering framing, steel stud layout, curved feature execution, and finish coordination.',
+        ogTitle: 'Salon Privé - Construction Breakdown',
+        ogDescription:
+          'Bilingual construction case study: modular trade show build, structural system, curved framing technique, and finishing coordination.'
+      }
     },
     a11y: { skip: 'Skip to main content' },
     hero: {
@@ -122,13 +129,20 @@ const dictionary = {
   },
   pt: {
     meta: {
-      lang: 'pt',
-      title: 'Salon Privé - Detalhamento Construtivo | Living Luxe Design Show 2024',
-      description:
-        'Estudo de caso do Salon Privé no Living Luxe Design Show 2024, abordando estrutura metálica, layout steel stud, execução de curva frontal e coordenação de acabamento.',
-      ogTitle: 'Salon Privé - Detalhamento Construtivo',
-      ogDescription:
-        'Estudo de caso bilíngue: construção modular para feira, sistema estrutural, técnica de curvatura e coordenação de acabamento.'
+      home: {
+        title: 'Portfólio de Construção | Início',
+        description: 'Explore um portfólio de construção com estudos de caso, competências essenciais e contato profissional.',
+        ogTitle: 'Portfólio de Construção | Início',
+        ogDescription: 'Conheça estudos de caso de obras, experiência prática e destaques de execução.'
+      },
+      salonPrive: {
+        title: 'Salon Privé - Detalhamento Construtivo | Living Luxe Design Show 2024',
+        description:
+          'Estudo de caso do Salon Privé no Living Luxe Design Show 2024, abordando estrutura metálica, layout steel stud, execução de curva frontal e coordenação de acabamento.',
+        ogTitle: 'Salon Privé - Detalhamento Construtivo',
+        ogDescription:
+          'Estudo de caso bilíngue: construção modular para feira, sistema estrutural, técnica de curvatura e coordenação de acabamento.'
+      }
     },
     a11y: { skip: 'Pular para o conteúdo principal' },
     hero: {
@@ -255,23 +269,39 @@ function getFallbackText(element) {
   return element.getAttribute('data-fallback') || element.textContent.trim() || '[content unavailable]';
 }
 
-function updateMetadata(langPack) {
-  document.documentElement.lang = langPack.meta.lang;
-  document.title = langPack.meta.title;
+function getCurrentPageMetaKey() {
+  const path = window.location.pathname;
+  if (path.endsWith('/projects/salon-prive.html') || path.endsWith('projects/salon-prive.html')) return 'salonPrive';
+  return 'home';
+}
+
+function getDocumentLang(lang) {
+  return lang === 'pt' ? 'pt-BR' : 'en';
+}
+
+function updateMetadata(langPack, fallbackPack, lang) {
+  document.documentElement.lang = getDocumentLang(lang);
+
+  const pageMetaKey = getCurrentPageMetaKey();
+  const pageMeta = langPack.meta[pageMetaKey] || fallbackPack.meta[pageMetaKey];
+
+  if (!pageMeta) return;
+
+  document.title = pageMeta.title;
 
   const description = document.querySelector('meta[name="description"]');
   const ogTitle = document.querySelector('meta[property="og:title"]');
   const ogDescription = document.querySelector('meta[property="og:description"]');
 
-  if (description) description.setAttribute('content', langPack.meta.description);
-  if (ogTitle) ogTitle.setAttribute('content', langPack.meta.ogTitle);
-  if (ogDescription) ogDescription.setAttribute('content', langPack.meta.ogDescription);
+  if (description) description.setAttribute('content', pageMeta.description);
+  if (ogTitle) ogTitle.setAttribute('content', pageMeta.ogTitle);
+  if (ogDescription) ogDescription.setAttribute('content', pageMeta.ogDescription);
 }
 
 function applyLanguage(lang) {
   const langPack = dictionary[lang] || dictionary.en;
   const fallbackPack = dictionary.en;
-  localStorage.setItem('preferredLanguage', langPack.meta.lang);
+  localStorage.setItem('preferredLanguage', lang);
 
   document.querySelectorAll('[data-i18n]').forEach((element) => {
     const key = element.getAttribute('data-i18n');
@@ -289,11 +319,11 @@ function applyLanguage(lang) {
   });
 
   document.querySelectorAll('[data-lang-btn]').forEach((button) => {
-    const active = button.getAttribute('data-lang-btn') === langPack.meta.lang;
+    const active = button.getAttribute('data-lang-btn') === lang;
     button.setAttribute('aria-pressed', String(active));
   });
 
-  updateMetadata(langPack);
+  updateMetadata(langPack, fallbackPack, lang);
 
   window.__langPack = langPack;
   window.__translate = (key, defaultText = '') => {
@@ -303,7 +333,7 @@ function applyLanguage(lang) {
     return typeof enValue === 'string' ? enValue : defaultText;
   };
 
-  window.dispatchEvent(new CustomEvent('languagechange', { detail: { lang: langPack.meta.lang, langPack } }));
+  window.dispatchEvent(new CustomEvent('languagechange', { detail: { lang, langPack } }));
 }
 
 function getInitialLanguage() {
