@@ -10,4 +10,20 @@
       "status": "Concluído"
     }
   ]
+  "projects": {
+    "meta": {
+      "lang": "pt",
+      "title": "Portfólio de Construção | Projetos",
+      "description": "Explore estudos de caso e detalhamentos técnicos de projetos construtivos."
+    },
+    "labels": {
+      "caseStudy": "Estudo de Caso",
+      "open": "Abrir"
+    },
+    "salonPrive": {
+      "name": "Salon Privé",
+      "slug": "salon-prive",
+      "title": "Salon Privé - Detalhamento Construtivo"
+    }
+  }
 }
