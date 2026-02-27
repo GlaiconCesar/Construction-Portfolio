@@ -151,16 +151,24 @@ function applyLanguage(lang, packs, page) {
 window.addEventListener('DOMContentLoaded', async () => {
   const page = detectPage();
   const initialLanguage = resolveLanguage();
-  const packs = await loadLanguagePacks(page, initialLanguage);
+  const packsCache = new Map();
+  const getPacksForLanguage = async (lang) => {
+    if (!packsCache.has(lang)) {
+      packsCache.set(lang, await loadLanguagePacks(page, lang));
+    }
+    return packsCache.get(lang);
+  };
 
-  applyLanguage(initialLanguage, packs, page);
+  const initialPacks = await getPacksForLanguage(initialLanguage);
+  applyLanguage(initialLanguage, initialPacks, page);
 
   document.querySelectorAll('[data-lang-btn]').forEach((button) => {
-    button.addEventListener('click', () => {
+    button.addEventListener('click', async () => {
       const selected = button.getAttribute('data-lang-btn');
       if (!SUPPORTED_LANGUAGES.includes(selected)) return;
 
-      applyLanguage(selected, packs, page);
+      const selectedPacks = await getPacksForLanguage(selected);
+      applyLanguage(selected, selectedPacks, page);
 
       const url = new URL(window.location.href);
       url.searchParams.set('lang', selected);
