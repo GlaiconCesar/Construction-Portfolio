@@ -145,10 +145,11 @@ function showPrev() {
 function setupRevealAnimation() {
   const cards = document.querySelectorAll('.gallery-reveal');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const supportsIntersectionObserver = typeof window.IntersectionObserver === 'function';
 
   if (revealObserver) revealObserver.disconnect();
 
-  if (reducedMotion) {
+  if (reducedMotion || !supportsIntersectionObserver) {
     cards.forEach((card) => card.classList.add('is-visible'));
     return;
   }
