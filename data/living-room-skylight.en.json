@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "lang": "en",
+    "title": "Custom Living Room – Framing, Drywall & Skylight Feature | Construction Portfolio",
+    "description": "Residential renovation in Toronto featuring curved framing, drywall finishing, and a custom skylight with integrated LED cove lighting.",
+    "ogTitle": "Custom Living Room – Framing, Drywall & Skylight Feature",
+    "ogDescription": "Case study focused on framing, drywall, crew support, and final skylight detailing for a high-end living room renovation."
+  },
+  "a11y": { "skip": "Skip to main content" },
+  "site": {
+    "brand": "Construction Portfolio",
+    "backProjects": "← Back to projects",
+    "backHome": "Home"
+  },
+  "hero": {
+    "eyebrow": "Residential Renovation",
+    "title": "Custom Living Room – Framing, Drywall & Skylight Feature",
+    "summary": "From framing and drywall to finish-ready detailing, this project delivered a custom curved ceiling with skylight integration and LED cove effect.",
+    "typeLabel": "Type",
+    "typeValue": "Residential interior renovation"
+  },
+  "facts": {
+    "title": "Quick Facts",
+    "company": { "label": "Company", "value": "IMP Construction" },
+    "location": { "label": "Location", "value": "Toronto, ON" },
+    "role": { "label": "My Scope", "value": "Framing, drywall, taping, team support, material management, daily reporting" }
+  },
+  "overview": {
+    "title": "Overview",
+    "body": "Residential renovation featuring a custom architectural ceiling with curved transitions and skylight integration. Scope included framing support, drywall installation, taping/finishing, and coordination with trades to keep progress aligned with schedule and material availability."
+  },
+  "responsibilities": {
+    "title": "My Responsibilities",
+    "items": [
+      "Framing support for curved ceiling feature and skylight opening",
+      "Drywall installation (walls/ceiling)",
+      "Taping, mudding, sanding (finish-ready surfaces)",
+      "Assisting crew coordination and daily task alignment",
+      "Material tracking, staging, and daily reporting"
+    ]
+  },
+  "narrative": {
+    "title": "Process → Final",
+    "body": "The gallery follows the project journey from structural framing and drywall boarding through detailed finishing, scaffold-supported execution, and final lighting activation around the skylight feature."
+  },
+  "gallery": {
+    "title": "Gallery",
+    "openImage": "Open image",
+    "viewerLabel": "Image viewer",
+    "closeViewer": "Close viewer",
+    "previousImage": "Previous image",
+    "nextImage": "Next image"
+  },
+  "images": {
+    "hero": "Completed living room with custom skylight and LED cove lighting",
+    "framingWide": "Early framing stage for the custom ceiling around the skylight",
+    "drywallProgress": "Drywall installation progress in the living room with skylight opening",
+    "skylightBottom": "Bottom-up view of curved skylight framing and drywall preparation",
+    "ceilingShape": "Top detail view of the custom ceiling shape around the skylight",
+    "ledPrep": "Scaffold setup and LED cove preparation around the skylight opening",
+    "ledOn": "LED cove lighting turned on around the completed skylight feature",
+    "interiorFinish": "Interior skylight finish with smooth surfaces ready for final detailing",
+    "scaffoldWork": "Crew working from scaffold during ceiling finishing phase",
+    "finalWide": "Wide final view of the renovated living room and skylight feature"
+  },
+  "footer": { "rights": "Construction Portfolio" }
+}

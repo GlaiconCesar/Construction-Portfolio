@@ -1,6 +1,6 @@
 const assetPrefix = window.location.pathname.includes('/projects/') ? '../' : '';
 
-const galleryItems = [
+const defaultGalleryItems = [
   { src: `${assetPrefix}assets/img/hero-finished.jpg`, altKey: 'images.hero' },
   { src: `${assetPrefix}assets/img/bar-feature.jpg`, altKey: 'images.bar' },
   { src: `${assetPrefix}assets/img/wine-wall.jpg`, altKey: 'images.wine' },
@@ -9,6 +9,10 @@ const galleryItems = [
   { src: `${assetPrefix}assets/img/build-framing-curved-wall.jpg`, altKey: 'images.framingCurve' },
   { src: `${assetPrefix}assets/img/brand-wn-salon-prive.jpg`, altKey: 'images.brand' }
 ];
+
+const galleryItems = Array.isArray(window.__galleryItems) && window.__galleryItems.length
+  ? window.__galleryItems
+  : defaultGalleryItems;
 
 let activeIndex = 0;
 let revealObserver;

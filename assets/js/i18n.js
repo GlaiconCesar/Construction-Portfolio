@@ -26,6 +26,9 @@ function getPageKey() {
   if (explicit) return explicit;
 
   const pathname = window.location.pathname;
+  const projectMatch = pathname.match(/\/projects\/([a-z0-9-]+)\.html$/i);
+  if (projectMatch) return projectMatch[1];
+
   if (pathname.includes('/projects/salon-prive')) return 'salon-prive';
   return 'home';
 }
