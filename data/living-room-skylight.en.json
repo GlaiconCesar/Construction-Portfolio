@@ -1,12 +1,14 @@
 {
   "meta": {
     "lang": "en",
-    "title": "Custom Living Room – Framing, Drywall & Skylight Feature | Construction Portfolio",
-    "description": "Residential renovation in Toronto featuring curved framing, drywall finishing, and a custom skylight with integrated LED cove lighting.",
+    "title": "Living Room Skylight – Framing, Drywall & LED Cove | Construction Portfolio",
+    "description": "Toronto living room renovation with curved ceiling framing, drywall finishing, and an integrated skylight with LED cove lighting.",
     "ogTitle": "Custom Living Room – Framing, Drywall & Skylight Feature",
     "ogDescription": "Case study focused on framing, drywall, crew support, and final skylight detailing for a high-end living room renovation."
   },
-  "a11y": { "skip": "Skip to main content" },
+  "a11y": {
+    "skip": "Skip to main content"
+  },
   "site": {
     "brand": "Construction Portfolio",
     "backProjects": "← Back to projects",
@@ -19,10 +21,22 @@
   },
   "facts": {
     "title": "Quick Facts",
-    "company": { "label": "Company", "value": "IMP Construction" },
-    "location": { "label": "Location", "value": "Toronto, ON" },
-    "type": { "label": "Project Type", "value": "Residential interior renovation" },
-    "role": { "label": "My Scope", "value": "Framing, drywall, taping, team support, material management, daily reporting" }
+    "company": {
+      "label": "Company",
+      "value": "IMP Construction"
+    },
+    "location": {
+      "label": "Location",
+      "value": "Toronto, ON"
+    },
+    "type": {
+      "label": "Project Type",
+      "value": "Residential interior renovation"
+    },
+    "role": {
+      "label": "My Scope",
+      "value": "Framing, drywall, taping, team support, material management, daily reporting"
+    }
   },
   "executiveSummary": {
     "title": "Executive Summary",
@@ -79,5 +93,7 @@
     "scaffoldWork": "Crew working from scaffold during ceiling finishing phase",
     "finalWide": "Wide final view of the renovated living room and skylight feature"
   },
-  "footer": { "rights": "Construction Portfolio" }
+  "footer": {
+    "rights": "Construction Portfolio"
+  }
 }

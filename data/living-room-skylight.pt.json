@@ -1,12 +1,14 @@
 {
   "meta": {
     "lang": "pt-BR",
-    "title": "Sala de Estar Customizada – Frame, Drywall e Claraboia | Portfólio de Construção",
-    "description": "Reforma residencial em Toronto com forro curvo, drywall, acabamento fino e claraboia com sanca de LED integrada.",
+    "title": "Claraboia da Sala de Estar – Frame, Drywall e Sanca em LED | Portfólio de Construção",
+    "description": "Reforma residencial em Toronto com forro curvo, frame, acabamento em drywall e claraboia integrada com sanca em LED.",
     "ogTitle": "Sala de Estar Customizada – Frame, Drywall e Claraboia",
     "ogDescription": "Estudo de caso com foco em framing, drywall, apoio de equipe e acabamento final da claraboia em uma reforma residencial."
   },
-  "a11y": { "skip": "Ir para o conteúdo principal" },
+  "a11y": {
+    "skip": "Ir para o conteúdo principal"
+  },
   "site": {
     "brand": "Portfólio de Construção",
     "backProjects": "← Voltar aos projetos",
@@ -19,10 +21,22 @@
   },
   "facts": {
     "title": "Dados Rápidos",
-    "company": { "label": "Empresa", "value": "IMP Construction" },
-    "location": { "label": "Local", "value": "Toronto, ON" },
-    "type": { "label": "Tipo de Projeto", "value": "Reforma residencial de interiores" },
-    "role": { "label": "Minha Atuação", "value": "Framing, drywall, tape, apoio de equipe, gestão de materiais e reporte diário" }
+    "company": {
+      "label": "Empresa",
+      "value": "IMP Construction"
+    },
+    "location": {
+      "label": "Local",
+      "value": "Toronto, ON"
+    },
+    "type": {
+      "label": "Tipo de Projeto",
+      "value": "Reforma residencial de interiores"
+    },
+    "role": {
+      "label": "Minha Atuação",
+      "value": "Framing, drywall, tape, apoio de equipe, gestão de materiais e reporte diário"
+    }
   },
   "executiveSummary": {
     "title": "Resumo Executivo",
@@ -79,5 +93,7 @@
     "scaffoldWork": "Equipe em trabalho de acabamento com apoio de andaime",
     "finalWide": "Vista ampla final da sala reformada com destaque para a claraboia"
   },
-  "footer": { "rights": "Portfólio de Construção" }
+  "footer": {
+    "rights": "Portfólio de Construção"
+  }
 }
