@@ -17,6 +17,17 @@
       "image": "assets/img/projects/living-room-skylight/skylight-final.jpg",
       "alt": "Custom living room with skylight feature and LED cove lighting turned on",
       "cta": "Open case study"
+    },
+    {
+      "slug": "the-sanctuary",
+      "title": "The Sanctuary – Residential Interior Renovation",
+      "summary": "Premium residential renovation featuring custom framing, drywall execution, and high-end finishing coordination.",
+      "href": "projects/the-sanctuary.html",
+      "image": "assets/img/projects/the-sanctuary/01.jpeg",
+      "alt": "Completed interior view of The Sanctuary project with warm finishes and custom detailing",
+      "year": "2024",
+      "category": "Residential Renovation",
+      "cta": "Open case study"
     }
   ]
 }

@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "lang": "en",
+    "title": "The Sanctuary | Residential Interior Renovation | Construction Portfolio",
+    "description": "Case study of The Sanctuary, a residential interior renovation focused on curved architectural details, premium finishes, and coordinated execution.",
+    "ogTitle": "The Sanctuary – Residential Interior Renovation",
+    "ogDescription": "From framing and drywall to premium finishing, The Sanctuary highlights disciplined execution and high-end residential detailing."
+  },
+  "a11y": { "skip": "Skip to main content" },
+  "site": {
+    "brand": "Construction Portfolio",
+    "backProjects": "← Back to projects",
+    "backHome": "← Back to home"
+  },
+  "hero": {
+    "eyebrow": "Residential Interior Case Study",
+    "title": "The Sanctuary",
+    "summary": "A premium interior renovation that transformed a standard living area into a warm, sculpted, and highly functional sanctuary."
+  },
+  "facts": {
+    "title": "Project Facts",
+    "client": { "label": "Client", "value": "Private Residence" },
+    "location": { "label": "Location", "value": "Toronto, ON" },
+    "year": { "label": "Year", "value": "2024" },
+    "category": { "label": "Category", "value": "Residential Renovation" },
+    "role": { "label": "Scope", "value": "Framing, drywall, finishing coordination and quality control" }
+  },
+  "details": {
+    "title": "Project Details",
+    "body": "The Sanctuary combined architectural framing, drywall precision, and premium finish integration to achieve a calm and luxurious interior atmosphere."
+  },
+  "overview": {
+    "title": "Overview",
+    "body": "The objective was to modernize the interior while preserving a comfortable residential character. The design language focused on soft transitions, curated textures, and balanced lighting."
+  },
+  "challenge": {
+    "title": "Challenge",
+    "body": "The renovation required clean alignment across curved details, ceiling transitions, and multiple finishing trades without compromising schedule or visual continuity."
+  },
+  "approach": {
+    "title": "Approach",
+    "body": "Work was executed in coordinated phases: site preparation, framing adjustments, drywall installation, progressive finishing, and final detail reviews. Daily communication kept sequencing predictable and quality consistent."
+  },
+  "highlights": {
+    "title": "Highlights",
+    "items": [
+      "Custom framing support for architectural ceiling features",
+      "Drywall and finishing workflow optimized for smooth transitions",
+      "Material staging and trade coordination to reduce delays",
+      "Final detailing aligned with high-end residential expectations"
+    ]
+  },
+  "gallery": {
+    "title": "Gallery",
+    "openImage": "Open image",
+    "viewerLabel": "Image viewer",
+    "closeViewer": "Close viewer",
+    "previousImage": "Previous image",
+    "nextImage": "Next image"
+  },
+  "credits": {
+    "title": "Credits",
+    "body": "Construction execution and site coordination by the project team in collaboration with client-selected design and finishing partners."
+  },
+  "cta": {
+    "title": "Need a similar execution on your project?",
+    "body": "Let’s discuss your scope, schedule, and finish requirements.",
+    "button": "Start a conversation"
+  },
+  "images": {
+    "hero": "Completed interior space from The Sanctuary project",
+    "featureWall": "Living area feature wall and lighting composition",
+    "diningDetail": "Dining zone detail with refined finish transitions",
+    "ceilingDesign": "Ceiling and trim composition after final finishes",
+    "finalWide": "Wide view of the completed Sanctuary interior",
+    "framing": "Framing stage before drywall and finish integration",
+    "installation": "Drywall installation phase with active site preparation",
+    "progress": "Mid-phase progress showing ceiling and wall development"
+  },
+  "footer": { "rights": "Construction Portfolio" }
+}

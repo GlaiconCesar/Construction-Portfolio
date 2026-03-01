@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "lang": "pt",
+    "title": "The Sanctuary | Reforma Residencial de Interiores | Construction Portfolio",
+    "description": "Estudo de caso do The Sanctuary, uma reforma residencial focada em detalhes curvos, acabamentos premium e execução coordenada.",
+    "ogTitle": "The Sanctuary – Reforma Residencial de Interiores",
+    "ogDescription": "Da estrutura e drywall ao acabamento premium, The Sanctuary destaca execução disciplinada e detalhamento residencial de alto padrão."
+  },
+  "a11y": { "skip": "Ir para o conteúdo principal" },
+  "site": {
+    "brand": "Construction Portfolio",
+    "backProjects": "← Voltar para projetos",
+    "backHome": "← Voltar para início"
+  },
+  "hero": {
+    "eyebrow": "Estudo de Caso Residencial",
+    "title": "The Sanctuary",
+    "summary": "Uma reforma de interiores premium que transformou um ambiente comum em um espaço acolhedor, escultural e altamente funcional."
+  },
+  "facts": {
+    "title": "Dados do Projeto",
+    "client": { "label": "Cliente", "value": "Residência Privada" },
+    "location": { "label": "Local", "value": "Toronto, ON" },
+    "year": { "label": "Ano", "value": "2024" },
+    "category": { "label": "Categoria", "value": "Reforma Residencial" },
+    "role": { "label": "Escopo", "value": "Frame, drywall, coordenação de acabamento e controle de qualidade" }
+  },
+  "details": {
+    "title": "Detalhes do Projeto",
+    "body": "O The Sanctuary combinou estrutura arquitetônica, precisão em drywall e integração de acabamentos premium para alcançar uma atmosfera interna calma e sofisticada."
+  },
+  "overview": {
+    "title": "Visão Geral",
+    "body": "O objetivo foi modernizar o interior preservando o conforto residencial. A linguagem do projeto priorizou transições suaves, texturas selecionadas e iluminação equilibrada."
+  },
+  "challenge": {
+    "title": "Desafio",
+    "body": "A reforma exigiu alinhamento preciso entre detalhes curvos, transições de teto e múltiplas equipes de acabamento sem comprometer prazo nem continuidade visual."
+  },
+  "approach": {
+    "title": "Abordagem",
+    "body": "A execução ocorreu em fases coordenadas: preparação do local, ajustes de estrutura, instalação de drywall, acabamento progressivo e revisão final de detalhes. A comunicação diária manteve o sequenciamento previsível e a qualidade consistente."
+  },
+  "highlights": {
+    "title": "Destaques",
+    "items": [
+      "Suporte de estrutura customizada para elementos arquitetônicos no teto",
+      "Fluxo de drywall e acabamento otimizado para transições suaves",
+      "Organização de materiais e coordenação de equipes para reduzir atrasos",
+      "Detalhamento final alinhado com padrão residencial de alto nível"
+    ]
+  },
+  "gallery": {
+    "title": "Galeria",
+    "openImage": "Abrir imagem",
+    "viewerLabel": "Visualizador de imagem",
+    "closeViewer": "Fechar visualizador",
+    "previousImage": "Imagem anterior",
+    "nextImage": "Próxima imagem"
+  },
+  "credits": {
+    "title": "Créditos",
+    "body": "Execução da construção e coordenação de obra pela equipe do projeto em colaboração com parceiros de design e acabamento escolhidos pelo cliente."
+  },
+  "cta": {
+    "title": "Precisa de uma execução parecida no seu projeto?",
+    "body": "Vamos conversar sobre escopo, cronograma e requisitos de acabamento.",
+    "button": "Iniciar conversa"
+  },
+  "images": {
+    "hero": "Espaço interno finalizado do projeto The Sanctuary",
+    "featureWall": "Parede de destaque da sala com composição de iluminação",
+    "diningDetail": "Detalhe da área de jantar com transições refinadas",
+    "ceilingDesign": "Composição de teto e acabamento após finalização",
+    "finalWide": "Vista ampla do interior finalizado do Sanctuary",
+    "framing": "Etapa de estrutura antes da integração de drywall e acabamentos",
+    "installation": "Fase de instalação de drywall com preparação ativa da obra",
+    "progress": "Progresso intermediário mostrando evolução de teto e paredes"
+  },
+  "footer": { "rights": "Construction Portfolio" }
+}
