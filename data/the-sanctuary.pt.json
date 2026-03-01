@@ -15,42 +15,39 @@
   "hero": {
     "eyebrow": "Estudo de Caso de Estande para Exposição",
     "title": "The Sanctuary",
-    "summary": "Uma montagem premium de estande que transformou o conceito em um ambiente de exposição imersivo, escultural e altamente funcional."
-  },
-  "facts": {
-    "title": "Dados do Projeto",
-    "client": { "label": "Cliente", "value": "Residência Privada" },
-    "location": { "label": "Local", "value": "Toronto, ON" },
-    "year": { "label": "Ano", "value": "2024" },
-    "category": { "label": "Categoria", "value": "Estande para Exposição" },
-    "role": {
-      "label": "Escopo",
-      "value": "Estrutura em wood frame, revestimento em MDF em superfícies planas e curvas, detalhamento pronto para acabamento, coordenação elétrica/de iluminação e suporte de instalação em obra."
-    }
-  },
-  "details": {
-    "title": "Detalhes do Projeto",
-    "body": "O escopo do The Sanctuary cobriu a entrega técnica de ponta a ponta, desde a estrutura em wood frame até a preparação final das bases para acabamento. Os serviços incluíram revestimento em painéis de MDF em superfícies planas e curvas, com controle rigoroso de geometria para garantir juntas e revelos limpos, prontos para acabamento. A coordenação em campo assegurou a prontidão elétrica e de iluminação nos pontos de interface antes do fechamento, e houve suporte de instalação em obra para manter sequenciamento, encaixes e qualidade alinhados aos marcos do projeto."
+    "summary": "O The Sanctuary transformou um conceito de estande em um ambiente premium para visitantes, com execução controlada, precisão de acabamento e coordenação de obra.",
+    "tags": ["Wood Frame", "Revestimento MDF Curvo", "Coordenação de Iluminação", "Instalação Acelerada"]
   },
   "overview": {
     "title": "Visão Geral",
-    "body": "O objetivo foi traduzir um conceito de marca em um estande de exposição convidativo, capaz de orientar o fluxo de visitantes e destacar os principais pontos de contato. A linguagem de design priorizou transições suaves, texturas selecionadas e iluminação equilibrada para uma apresentação premium."
+    "body": "Desenvolvido para um ambiente de evento com alto fluxo, o The Sanctuary exigiu uma estratégia construtiva que equilibrasse impacto visual e confiabilidade de instalação. O escopo incluiu estrutura, entrega de substratos em MDF curvos e planos, detalhamento pronto para acabamento e coordenação de interfaces elétricas e de iluminação para garantir prontidão na abertura."
   },
-  "challenge": {
-    "title": "Desafio",
-    "body": "A montagem exigiu alinhamento preciso entre geometrias curvas, transições de forro e múltiplas equipes de acabamento em janelas curtas de entrada no pavilhão, sem comprometer a continuidade visual no piso de exposição."
+  "details": {
+    "title": "Detalhes do Projeto",
+    "rows": {
+      "event": { "label": "Evento", "value": "The Sanctuary Showcase 2024" },
+      "location": { "label": "Local", "value": "Toronto, ON" },
+      "design": { "label": "Design", "value": "Equipe Criativa e Espacial Indicada pelo Cliente" },
+      "builder": { "label": "Construtora", "value": "Equipe de Projeto Construction Portfolio" },
+      "type": { "label": "Tipo", "value": "Estande para Exposição" },
+      "scope": {
+        "label": "Escopo",
+        "value": "Estrutura em wood frame, revestimento em MDF em superfícies planas e curvas, detalhamento pronto para acabamento, verificações de interface elétrica/iluminação e suporte de instalação em obra."
+      }
+    }
   },
-  "approach": {
-    "title": "Abordagem",
-    "body": "A execução seguiu fases coordenadas de entrega de estande: planejamento de pré-fabricação, instalação de estrutura e substrato, acabamento progressivo, verificações de prontidão MEP e revisões finais de encaixe em obra. A comunicação diária manteve o sequenciamento previsível e a qualidade consistente até a entrega."
+  "challengeApproach": {
+    "title": "Desafio & Abordagem",
+    "constraints": "As principais restrições incluíram janelas curtas de montagem, controle rigoroso de tolerâncias em geometrias curvas e sobreposição de múltiplas frentes de trabalho durante etapas críticas de fechamento.",
+    "approach": "A equipe aplicou sequenciamento por fases, alinhamento diário em campo e controles de qualidade por marco para manter a precisão geométrica, garantir interfaces MEP prontas antes do fechamento e entregar acabamento consistente. O resultado final foi um estande imersivo entregue no prazo, com encaixe confiável e qualidade de apresentação."
   },
   "highlights": {
     "title": "Destaques",
     "items": [
-      "Sistema construtivo principal: estrutura em wood frame",
-      "Revestimento em painéis de MDF em superfícies planas e curvas",
-      "Superfícies prontas para acabamento com juntas e revelos precisos",
-      "Coordenação para prontidão elétrica e de iluminação antes do fechamento"
+      "Execução completa do pacote de estrutura em wood frame e substratos em MDF para superfícies planas e curvas.",
+      "Manutenção de revelos limpos e linhas de junta controladas para atender exigências de acabamento premium.",
+      "Coordenação de pontos elétricos e de iluminação antes do fechamento final para reduzir risco de retrabalho.",
+      "Entrega no prazo com qualidade estável na instalação, no detalhamento e na apresentação final."
     ]
   },
   "gallery": {
@@ -63,11 +60,11 @@
   },
   "credits": {
     "title": "Créditos",
-    "body": "Execução da construção e coordenação de obra pela equipe do projeto em colaboração com parceiros de design e acabamento escolhidos pelo cliente."
+    "body": "Execução da construção e coordenação de obra pela equipe da Construction Portfolio, em colaboração com parceiros de design e acabamento indicados pelo cliente."
   },
   "cta": {
     "title": "Precisa de uma execução parecida no seu projeto?",
-    "body": "Vamos conversar sobre escopo, cronograma e requisitos de acabamento.",
+    "body": "Vamos revisar seu escopo, restrições e cronograma.",
     "button": "Iniciar conversa"
   },
   "images": {

@@ -192,6 +192,44 @@ dt {
   color: var(--muted);
 }
 
+
+.hero-tags {
+  margin: 0 1.4rem 1.3rem;
+}
+
+.details-table-wrap {
+  overflow-x: auto;
+}
+
+.details-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.details-table th,
+.details-table td {
+  padding: 0.55rem 0;
+  border-bottom: 1px solid rgba(237, 237, 237, 0.1);
+  vertical-align: top;
+}
+
+.details-table tr:last-child th,
+.details-table tr:last-child td {
+  border-bottom: 0;
+}
+
+.details-table th {
+  text-align: left;
+  color: var(--gold);
+  font-weight: 600;
+  width: 8.5rem;
+  padding-right: 0.9rem;
+}
+
+.details-table td {
+  color: var(--muted);
+}
+
 .facts-card {
   margin: 1rem 1.4rem 1.4rem;
   border: 1px solid var(--line-gold);

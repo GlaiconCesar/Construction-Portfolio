@@ -62,24 +62,12 @@
         <p class="eyebrow" data-i18n="hero.eyebrow"></p>
         <h1 data-i18n="hero.title"></h1>
         <p class="hero-summary" data-i18n="hero.summary"></p>
-      </section>
-
-      <section>
-        <article class="facts-card" aria-labelledby="facts-heading">
-          <h2 id="facts-heading" class="facts-title" data-i18n="facts.title"></h2>
-          <dl class="facts-grid">
-            <div class="fact-item"><dt data-i18n="facts.client.label"></dt><dd data-i18n="facts.client.value"></dd></div>
-            <div class="fact-item"><dt data-i18n="facts.location.label"></dt><dd data-i18n="facts.location.value"></dd></div>
-            <div class="fact-item"><dt data-i18n="facts.year.label"></dt><dd data-i18n="facts.year.value"></dd></div>
-            <div class="fact-item"><dt data-i18n="facts.category.label"></dt><dd data-i18n="facts.category.value"></dd></div>
-            <div class="fact-item"><dt data-i18n="facts.role.label"></dt><dd data-i18n="facts.role.value"></dd></div>
-          </dl>
-        </article>
-      </section>
-
-      <section>
-        <h2 data-i18n="details.title"></h2>
-        <p data-i18n="details.body"></p>
+        <ul class="project-tags hero-tags" aria-label="Project tags">
+          <li data-i18n="hero.tags.0"></li>
+          <li data-i18n="hero.tags.1"></li>
+          <li data-i18n="hero.tags.2"></li>
+          <li data-i18n="hero.tags.3"></li>
+        </ul>
       </section>
 
       <section>
@@ -88,13 +76,45 @@
       </section>
 
       <section>
-        <h2 data-i18n="challenge.title"></h2>
-        <p data-i18n="challenge.body"></p>
+        <article class="facts-card" aria-labelledby="details-heading">
+          <h2 id="details-heading" class="facts-title" data-i18n="details.title"></h2>
+          <div class="details-table-wrap">
+            <table class="details-table">
+              <tbody>
+                <tr>
+                  <th scope="row" data-i18n="details.rows.event.label"></th>
+                  <td data-i18n="details.rows.event.value"></td>
+                </tr>
+                <tr>
+                  <th scope="row" data-i18n="details.rows.location.label"></th>
+                  <td data-i18n="details.rows.location.value"></td>
+                </tr>
+                <tr>
+                  <th scope="row" data-i18n="details.rows.design.label"></th>
+                  <td data-i18n="details.rows.design.value"></td>
+                </tr>
+                <tr>
+                  <th scope="row" data-i18n="details.rows.builder.label"></th>
+                  <td data-i18n="details.rows.builder.value"></td>
+                </tr>
+                <tr>
+                  <th scope="row" data-i18n="details.rows.type.label"></th>
+                  <td data-i18n="details.rows.type.value"></td>
+                </tr>
+                <tr>
+                  <th scope="row" data-i18n="details.rows.scope.label"></th>
+                  <td data-i18n="details.rows.scope.value"></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
       </section>
 
       <section>
-        <h2 data-i18n="approach.title"></h2>
-        <p data-i18n="approach.body"></p>
+        <h2 data-i18n="challengeApproach.title"></h2>
+        <p data-i18n="challengeApproach.constraints"></p>
+        <p data-i18n="challengeApproach.approach"></p>
       </section>
 
       <section>
@@ -108,13 +128,13 @@
       </section>
 
       <section>
-        <h2 data-i18n="credits.title"></h2>
-        <p data-i18n="credits.body"></p>
+        <h2 data-i18n="gallery.title"></h2>
+        <div id="gallery-grid" class="gallery" aria-label="Project image gallery"></div>
       </section>
 
       <section>
-        <h2 data-i18n="gallery.title"></h2>
-        <div id="gallery-grid" class="gallery" aria-label="Project image gallery"></div>
+        <h2 data-i18n="credits.title"></h2>
+        <p data-i18n="credits.body"></p>
       </section>
 
       <section>

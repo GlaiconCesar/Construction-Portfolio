@@ -15,42 +15,39 @@
   "hero": {
     "eyebrow": "Exhibition Booth Case Study",
     "title": "The Sanctuary",
-    "summary": "A premium booth build that transformed a concept into an immersive, sculpted, and highly functional exhibition environment."
-  },
-  "facts": {
-    "title": "Project Facts",
-    "client": { "label": "Client", "value": "Private Residence" },
-    "location": { "label": "Location", "value": "Toronto, ON" },
-    "year": { "label": "Year", "value": "2024" },
-    "category": { "label": "Category", "value": "Exhibition Booth" },
-    "role": {
-      "label": "Scope",
-      "value": "Wood frame structure, MDF cladding for flat and curved surfaces, finish-ready detailing, electrical/lighting coordination, and onsite installation support."
-    }
-  },
-  "details": {
-    "title": "Project Details",
-    "body": "The Sanctuary scope covered end-to-end technical delivery from wood frame structure through final-ready substrate preparation. Work included MDF panel coverage on both flat and curved surfaces, with tight geometry control to achieve clean reveals and joints ready for finishing. Field coordination ensured lighting and electrical readiness at interface points before close-up, and onsite install support kept sequencing, fit-up, and quality aligned with project milestones."
+    "summary": "The Sanctuary translated a concept-driven booth into a premium visitor environment, delivered through controlled execution, finish precision, and coordinated site operations.",
+    "tags": ["Wood Frame", "Curved MDF Cladding", "Lighting Coordination", "Fast-Track Install"]
   },
   "overview": {
     "title": "Overview",
-    "body": "The objective was to translate a branded concept into an inviting exhibition booth that guided visitor flow and showcased key touchpoints. The design language prioritized soft transitions, curated textures, and balanced lighting for a premium presentation."
+    "body": "Developed for a high-traffic event setting, The Sanctuary required a build strategy that balanced visual impact with installation reliability. The scope covered structural framing, curved and flat MDF substrate delivery, finish-ready detailing, and interface coordination with electrical and lighting teams to support opening-day readiness."
   },
-  "challenge": {
-    "title": "Challenge",
-    "body": "The build required precise alignment across curved geometries, ceiling transitions, and multiple finishing trades within tight move-in windows, without compromising visual continuity on the show floor."
+  "details": {
+    "title": "Project Details",
+    "rows": {
+      "event": { "label": "Event", "value": "The Sanctuary Showcase 2024" },
+      "location": { "label": "Location", "value": "Toronto, ON" },
+      "design": { "label": "Design", "value": "Client-Appointed Creative & Spatial Team" },
+      "builder": { "label": "Builder", "value": "Construction Portfolio Project Team" },
+      "type": { "label": "Type", "value": "Exhibition Booth" },
+      "scope": {
+        "label": "Scope",
+        "value": "Wood frame structure, MDF cladding for flat and curved surfaces, finish-ready detailing, lighting/electrical interface checks, and on-site installation support."
+      }
+    }
   },
-  "approach": {
-    "title": "Approach",
-    "body": "Execution followed coordinated booth-delivery phases: prefabrication planning, framing and substrate installation, progressive finishing, MEP readiness checks, and final on-site fit-up reviews. Daily communication kept sequencing predictable and quality consistent through handover."
+  "challengeApproach": {
+    "title": "Challenge & Approach",
+    "constraints": "Primary constraints included compressed move-in windows, tight tolerance control across curved geometries, and multi-trade overlap during critical close-up stages.",
+    "approach": "The team applied phased sequencing, daily field alignment, and milestone-based quality controls to maintain geometry accuracy, keep MEP interfaces ready before closure, and deliver a consistent finish standard. The final outcome was an immersive booth delivered on schedule with reliable fit-up and presentation quality."
   },
   "highlights": {
     "title": "Highlights",
     "items": [
-      "Primary build system: wood frame structure",
-      "MDF panel cladding across flat and curved surfaces",
-      "Finish-ready surfaces with clean reveals and precise joints",
-      "Coordination for lighting and electrical readiness before closure"
+      "Executed a complete wood frame and MDF substrate package for both planar and curved architectural surfaces.",
+      "Maintained clean reveals and controlled joint lines to support premium finishing requirements.",
+      "Coordinated electrical and lighting touchpoints before final closure to reduce rework risk.",
+      "Achieved on-time handover with stable quality across installation, detailing, and final presentation."
     ]
   },
   "gallery": {
@@ -63,11 +60,11 @@
   },
   "credits": {
     "title": "Credits",
-    "body": "Construction execution and site coordination by the project team in collaboration with client-selected design and finishing partners."
+    "body": "Construction execution and site coordination by the Construction Portfolio team, in collaboration with client-appointed design and finishing partners."
   },
   "cta": {
     "title": "Need a similar execution on your project?",
-    "body": "Let’s discuss your scope, schedule, and finish requirements.",
+    "body": "Let’s review your scope, constraints, and timeline requirements.",
     "button": "Start a conversation"
   },
   "images": {
