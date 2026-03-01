@@ -2,11 +2,11 @@
   "projects": [
     {
       "slug": "salon-prive",
-      "title": "Salon Privé - Construction Breakdown",
-      "summary": "Premium event booth case study covering framing systems, curved feature execution, and finish-ready detailing.",
+      "title": "Salon Privé – Luxury Exhibition Experience",
+      "summary": "Award-winning Living Luxe Design Show 2024 exhibit by Wise Nadel Design, featuring immersive luxury lounge detailing and bespoke execution.",
       "href": "projects/salon-prive.html",
       "image": "assets/img/hero-finished.jpg",
-      "alt": "Completed Salon Privé interior booth with bar and lighting",
+      "alt": "Salon Privé luxury exhibit interior with quartzite feature bar and curated lighting",
       "cta": "Open case study"
     },
     {
@@ -14,7 +14,7 @@
       "title": "Custom Living Room – Framing, Drywall & Skylight Feature",
       "summary": "Residential renovation in Toronto with curved ceiling framing, drywall finishing, and an integrated skylight LED feature.",
       "href": "projects/living-room-skylight.html",
-      "image": "assets/img/projects/living-room-skylight/06-led-on-feature.jpg",
+      "image": "assets/img/skylight-1000002156.jpg",
       "alt": "Custom living room with skylight feature and LED cove lighting turned on",
       "cta": "Open case study"
     }

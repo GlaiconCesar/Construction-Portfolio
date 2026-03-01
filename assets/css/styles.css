@@ -552,6 +552,13 @@ ol {
   margin-bottom: 0;
 }
 
+
+.hero-home .button {
+  display: inline-flex;
+  align-items: center;
+  margin: 0.35rem 1.4rem 1.4rem;
+}
+
 .projects-grid {
   display: grid;
   gap: 1rem;

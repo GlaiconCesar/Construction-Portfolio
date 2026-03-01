@@ -1,10 +1,10 @@
 {
   "meta": {
     "lang": "pt-BR",
-    "title": "Estudo de Caso Salon Privé | Portfólio de Construção",
-    "description": "Estudo de caso detalhado da execução do Salon Privé no Living Luxe Design Show 2024.",
-    "ogTitle": "Estudo de Caso Salon Privé",
-    "ogDescription": "Estratégia de estrutura, execução de elementos curvos e coordenação de acabamento em um booth premium."
+    "title": "Estudo de Caso Salon Privé | Exposição Luxo | Living Luxe Design Show 2024",
+    "description": "Estudo de caso profissional da exposição Salon Privé por Wise Nadel Design, vencedora do prêmio Outstanding Booth Design no Living Luxe Design Show 2024 em Toronto.",
+    "ogTitle": "Salon Privé – Experiência de Exposição de Luxo",
+    "ogDescription": "Estudo de caso profissional da exposição Salon Privé por Wise Nadel Design, vencedora do prêmio Outstanding Booth Design no Living Luxe Design Show 2024 em Toronto."
   },
   "a11y": { "skip": "Ir para o conteúdo principal" },
   "site": {
@@ -13,29 +13,41 @@
   },
   "hero": {
     "eyebrow": "Living Luxe Design Show 2024",
-    "title": "Salon Privé - Análise de Construção",
-    "summary": "Este estudo mostra como o booth foi estruturado e preparado para acabamento premium dentro de um cronograma de evento bem restrito."
+    "title": "Salon Privé – Experiência de Exposição de Luxo",
+    "summary": "Salon Privé é uma exposição de luxo projetada por Wise Nadel Design e construída com Kilbarry Hill Construction para o Living Luxe Design Show 2024. O projeto apresentou um espaço lounge com materiais premium, elementos esculturais de quartzito verde e marcenaria sob medida. Foi premiado por sua visão coesa e execução refinada."
   },
   "facts": {
     "title": "Dados do Projeto",
     "event": { "label": "Evento", "value": "Living Luxe Design Show 2024" },
     "design": { "label": "Design", "value": "Wise Nadel Design" },
-    "execution": { "label": "Execução", "value": "IMP Construction Group" },
-    "role": { "label": "Função", "value": "Apoio em estrutura e construção interna" },
-    "location": { "label": "Local", "value": "Canadá" }
+    "execution": { "label": "Parceiro de Construção", "value": "Kilbarry Hill Construction" },
+    "role": { "label": "Foco da Entrega", "value": "Construção de exposição de luxo e coordenação de acabamentos" },
+    "location": { "label": "Local", "value": "Toronto, Canadá" }
   },
   "summary": {
-    "title": "Resumo do Projeto",
-    "body": "O Salon Privé uniu linguagem de hospitalidade com uma montagem prática para evento. A obra exigiu traçado preciso, sequência eficiente e integração próxima com as equipes de acabamento."
+    "title": "Resumo Executivo",
+    "body": "Salon Privé é uma exposição de luxo projetada por Wise Nadel Design e construída com Kilbarry Hill Construction para o Living Luxe Design Show 2024. O projeto apresentou um espaço lounge com materiais premium, elementos esculturais de quartzito verde e marcenaria sob medida. Foi premiado por sua visão coesa e execução refinada."
   },
-  "scope": {
-    "title": "Escopo de Trabalho",
+  "highlights": {
+    "title": "Destaques do Projeto",
     "items": [
-      "Traçado e montagem de estrutura para paredes e elementos superiores.",
-      "Apoio na base e preparo de substrato.",
-      "Execução de elemento frontal curvo com trilhos segmentados.",
-      "Coordenação com equipes de acabamento e marcenaria."
+      "Vencedor: Outstanding Booth Design no Living Luxe Design Show 2024",
+      "Estande imersivo 20×30 ft construído no local em menos de três dias",
+      "Design com foco em materiais de luxo, marcenaria personalizada e espaço experiencial",
+      "Execução colaborativa com Kilbarry Hill Construction e equipes especializadas"
     ]
+  },
+  "designStrategy": {
+    "title": "Estratégia de Design",
+    "body": "O Salon Privé foi concebido para elevar a noção de luxo residencial em um ambiente público. Inspirado por formas naturais e materiais orgânicos, utilizou quartzito verde profundo, piso em espinha de peixe, detalhes em latão e mobiliário sob medida para criar uma experiência elegante e acolhedora."
+  },
+  "execution": {
+    "title": "Execução & Construção",
+    "body": "O projeto foi desenhado ao longo de quatro meses e montado no Toronto Congress Centre em três dias, exigindo coordenação precisa de equipes, logística de materiais premium e métodos construtivos adaptativos."
+  },
+  "results": {
+    "title": "Resultados & Impacto",
+    "body": "A exposição atraiu atenção significativa de visitantes e profissionais, recebeu elogios pela coesão do design e foi reconhecida pela excelência pelo júri."
   },
   "gallery": {
     "title": "Galeria de Imagens",
@@ -47,13 +59,13 @@
     "nextImage": "Próxima imagem"
   },
   "images": {
-    "hero": "Booth interno do Salon Privé finalizado",
-    "bar": "Detalhe do bar em pedra verde",
-    "wine": "Parede iluminada para exposição de vinhos",
-    "framingArch": "Estrutura metálica curva durante montagem",
-    "shell": "Casca externa próxima da conclusão",
-    "framingCurve": "Estrutura steel stud de parede curva",
-    "brand": "Painel de identidade visual do Salon Privé"
+    "hero": "Vista final do lounge Salon Privé com acabamentos de luxo e iluminação cênica",
+    "bar": "Ilha de bar em quartzito verde profundo com detalhes em latão",
+    "wine": "Parede expositiva retroiluminada com composição de garrafas",
+    "framingArch": "Etapa de estrutura curva definindo a entrada arquitetônica do estande",
+    "shell": "Estrutura externa do estande concluída antes dos acabamentos finais",
+    "framingCurve": "Estrutura metálica de parede curva durante o traçado técnico",
+    "brand": "Painel institucional Wise Nadel Design x Salon Privé"
   },
   "footer": { "rights": "Portfólio de Construção" }
 }

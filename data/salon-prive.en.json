@@ -1,10 +1,10 @@
 {
   "meta": {
     "lang": "en",
-    "title": "Salon Privé Case Study | Construction Portfolio",
-    "description": "Detailed construction case study of Salon Privé at Living Luxe Design Show 2024.",
-    "ogTitle": "Salon Privé Case Study",
-    "ogDescription": "Framing strategy, curved feature execution, and finish coordination for a premium event booth."
+    "title": "Salon Privé Case Study | Luxury Exhibit | Living Luxe Design Show 2024",
+    "description": "Professional case study of the Salón Privé luxury exhibit by Wise Nadel Design, winner of Outstanding Booth Design at the Living Luxe Design Show 2024 in Toronto.",
+    "ogTitle": "Salon Privé – Luxury Exhibition Experience",
+    "ogDescription": "Professional case study of the Salón Privé luxury exhibit by Wise Nadel Design, winner of Outstanding Booth Design at the Living Luxe Design Show 2024 in Toronto."
   },
   "a11y": { "skip": "Skip to main content" },
   "site": {
@@ -13,29 +13,41 @@
   },
   "hero": {
     "eyebrow": "Living Luxe Design Show 2024",
-    "title": "Salon Privé - Construction Breakdown",
-    "summary": "This case study documents how the booth was framed and prepared for premium finishes under tight event deadlines."
+    "title": "Salon Privé – Luxury Exhibition Experience",
+    "summary": "Salon Privé is a luxury exhibit designed by Wise Nadel Design and built in partnership with Kilbarry Hill Construction for the Living Luxe Design Show 2024. The project featured an immersive lounge space with premium materials, a deep-green quartzite focal element, bespoke millwork, and experiential finishing. It won the Outstanding Booth Design award for its cohesive vision and execution."
   },
   "facts": {
     "title": "Project Facts",
     "event": { "label": "Event", "value": "Living Luxe Design Show 2024" },
     "design": { "label": "Design", "value": "Wise Nadel Design" },
-    "execution": { "label": "Execution", "value": "IMP Construction Group" },
-    "role": { "label": "Role", "value": "Framing & Interior Build Support" },
-    "location": { "label": "Location", "value": "Canada" }
+    "execution": { "label": "Construction Partner", "value": "Kilbarry Hill Construction" },
+    "role": { "label": "Delivery Focus", "value": "Luxury exhibit build and finish coordination" },
+    "location": { "label": "Location", "value": "Toronto, Canada" }
   },
   "summary": {
-    "title": "Project Summary",
-    "body": "Salon Privé combined hospitality-style design with practical event construction. The build required accurate layout, efficient sequencing, and close collaboration with finishing trades."
+    "title": "Executive Summary",
+    "body": "Salon Privé is a luxury exhibit designed by Wise Nadel Design and built in partnership with Kilbarry Hill Construction for the Living Luxe Design Show 2024. The project featured an immersive lounge space with premium materials, a deep-green quartzite focal element, bespoke millwork, and experiential finishing. It won the Outstanding Booth Design award for its cohesive vision and execution."
   },
-  "scope": {
-    "title": "Scope of Work",
+  "highlights": {
+    "title": "Project Highlights",
     "items": [
-      "Framing layout and assembly for walls and overhead elements.",
-      "Base platform support and substrate preparation.",
-      "Curved front feature framing with segmented tracks.",
-      "Coordination with finishing and millwork teams."
+      "Award winner: Outstanding Booth Design at Living Luxe Design Show 2024",
+      "20×30-ft immersive exhibit built onsite in under three days",
+      "Designed to showcase luxury materials, custom millwork, and experiential space",
+      "Collaborative execution with Kilbarry Hill Construction and specialty trades"
     ]
+  },
+  "designStrategy": {
+    "title": "Design Strategy",
+    "body": "Salon Privé was conceived to elevate the idea of residential lounge luxury into a public exhibit. Inspired by natural forms and organic materials, the design used deep-green quartzite, engineered herringbone flooring, brass accents, and bespoke furnishings to create an elegant yet welcoming experience."
+  },
+  "execution": {
+    "title": "Execution & Construction",
+    "body": "The project was concepted over four months and assembled onsite at the Toronto Congress Centre within three days. It required precise coordination of trades, logistical staging of premium materials, and adaptive construction methods."
+  },
+  "results": {
+    "title": "Results & Impact",
+    "body": "The exhibit attracted significant attention from visitors and industry peers, received unanimous praise for design cohesion, and was recognized by the jury for its excellence."
   },
   "gallery": {
     "title": "Image Gallery",
@@ -47,13 +59,13 @@
     "nextImage": "Next image"
   },
   "images": {
-    "hero": "Completed Salon Privé interior booth",
-    "bar": "Green stone bar feature detail",
-    "wine": "Backlit wine display wall",
-    "framingArch": "Curved steel framing during assembly",
-    "shell": "Exterior shell nearing completion",
-    "framingCurve": "Curved wall steel stud framing",
-    "brand": "Salon Privé branding panel"
+    "hero": "Final Salon Privé lounge interior with luxury finishes and feature lighting",
+    "bar": "Deep-green quartzite bar island with brass details",
+    "wine": "Backlit luxury display wall with curated bottle presentation",
+    "framingArch": "Curved framing stage shaping the exhibit's architectural entry",
+    "shell": "Exterior exhibit shell completed before final luxury finishes",
+    "framingCurve": "Steel-stud curved wall framing during precision layout",
+    "brand": "Wise Nadel Design x Salon Privé branded statement panel"
   },
   "footer": { "rights": "Construction Portfolio" }
 }
