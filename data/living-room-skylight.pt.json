@@ -10,38 +10,54 @@
   "site": {
     "brand": "Portfólio de Construção",
     "backProjects": "← Voltar aos projetos",
-    "backHome": "Início"
+    "backHome": "← Voltar ao início"
   },
   "hero": {
     "eyebrow": "Reforma Residencial",
     "title": "Sala de Estar Customizada – Frame, Drywall e Claraboia",
-    "summary": "Da estruturação ao acabamento fino, este projeto entregou um forro curvo customizado com integração de claraboia e efeito de iluminação em LED.",
-    "typeLabel": "Tipo",
-    "typeValue": "Reforma residencial de interiores"
+    "subtitle": "Do framing ao acabamento final, este projeto entregou um forro curvo customizado com integração de claraboia e efeito de sanca em LED."
   },
   "facts": {
     "title": "Dados Rápidos",
     "company": { "label": "Empresa", "value": "IMP Construction" },
     "location": { "label": "Local", "value": "Toronto, ON" },
+    "type": { "label": "Tipo de Projeto", "value": "Reforma residencial de interiores" },
     "role": { "label": "Minha Atuação", "value": "Framing, drywall, tape, apoio de equipe, gestão de materiais e reporte diário" }
   },
-  "overview": {
-    "title": "Visão Geral",
-    "body": "Reforma residencial com execução de forro arquitetônico com curvas e integração de claraboia. O trabalho incluiu apoio no framing, instalação de drywall, acabamento (tape/massa/lixa) e suporte na coordenação das equipes, controle de materiais e reporte diário."
+  "executiveSummary": {
+    "title": "Resumo Executivo",
+    "body": "Esta reforma de sala exigiu execução precisa de um forro curvo customizado integrado à claraboia. O projeto combinou apoio estrutural de framing, instalação de drywall, preparação de acabamento e coordenação ativa da equipe para manter padrão de qualidade e ritmo de obra."
   },
-  "responsibilities": {
-    "title": "Minhas Responsabilidades",
+  "projectObjectives": {
+    "title": "Objetivos do Projeto",
     "items": [
-      "Apoio no framing para forro curvo e claraboia",
-      "Instalação de drywall (paredes e teto)",
-      "Tape, massa e lixamento (preparação para pintura)",
-      "Apoio na coordenação das equipes e tarefas diárias",
-      "Controle/organização de materiais e reporte diário"
+      "Apoiar a construção do forro arquitetônico curvo ao redor da abertura da claraboia",
+      "Entregar instalação de drywall limpa e superfícies prontas para acabamento",
+      "Coordenar tarefas diárias da equipe para manter o cronograma",
+      "Garantir fluxo de materiais e prontidão do canteiro em todas as fases"
     ]
   },
-  "narrative": {
-    "title": "Processo → Final",
-    "body": "A galeria mostra a evolução da obra: da estrutura inicial e fechamento em drywall até os detalhes de acabamento, trabalho em andaime e resultado final com iluminação ativa na claraboia."
+  "scopeOfWork": {
+    "title": "Escopo de Trabalho",
+    "items": [
+      "Apoio no framing para geometria curva do forro e detalhamento da claraboia",
+      "Instalação de drywall em paredes e teto",
+      "Tape, massa, lixamento e preparação para acabamento final",
+      "Apoio no alinhamento da equipe e na sequência diária de execução",
+      "Controle de materiais, organização de frente e reporte diário de progresso"
+    ]
+  },
+  "technicalExecution": {
+    "title": "Execução Técnica e Metodologia",
+    "body": "A execução seguiu um fluxo por etapas: conferência de framing, fechamento em drywall, tratamento de juntas e acabamento progressivo. O acesso com andaime permitiu trabalho seguro e preciso nas transições elevadas do teto. A coordenação contínua entre equipes ajudou a resolver restrições rapidamente e preservar a qualidade de instalação."
+  },
+  "resultsValueDelivered": {
+    "title": "Resultados e Valor Entregue",
+    "body": "O resultado final entregou uma sala com elemento arquitetônico refinado, curvas suaves, claraboia integrada e iluminação de sanca em LED equilibrada. O processo também aumentou a eficiência da obra por meio de organização de materiais e reporte claro, garantindo um acabamento premium alinhado às expectativas do cliente."
+  },
+  "conclusion": {
+    "title": "Conclusão",
+    "body": "Este projeto comprova o valor de uma execução disciplinada em reformas de interiores customizadas. Combinando precisão técnica, colaboração de equipe e controle operacional diário, a obra evoluiu da estrutura inicial para um ambiente final sofisticado e de forte impacto visual."
   },
   "gallery": {
     "title": "Galeria",
