@@ -1,6 +1,7 @@
 {
   "facts": {
     "role": {
+      "value": "Primary Build System: Wood framing (wood frame); Primary Sheathing/Cladding: MDF panels on flat and curved surfaces; finish-ready detailing with clean reveals/joints; coordination for lighting/electrical readiness; onsite installation support."
       "value": "Wood frame structure, MDF cladding for flat and curved surfaces, finish-ready detailing, electrical/lighting coordination, and onsite installation support."
     }
   },
@@ -9,6 +10,8 @@
   },
   "highlights": {
     "items": [
+      "Primary Build System: Wood framing (wood frame)",
+      "Primary Sheathing/Cladding: MDF panels across flat and curved surfaces",
       "Wood frame structure execution for the primary built forms",
       "MDF panel coverage/cladding across flat and curved surfaces",
       "Finish-ready surfaces with clean reveals and precise joints",

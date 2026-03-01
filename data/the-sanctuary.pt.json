@@ -1,6 +1,7 @@
 {
   "facts": {
     "role": {
+      "value": "Sistema construtivo principal: estrutura em wood frame; fechamento/revestimento principal: painéis de MDF em superfícies planas e curvas; detalhamento pronto para acabamento com juntas/revelos limpos; coordenação para prontidão elétrica/iluminação; suporte de instalação em obra."
       "value": "Estrutura em wood frame, revestimento em MDF em superfícies planas e curvas, detalhamento pronto para acabamento, coordenação para prontidão elétrica/iluminação e suporte de instalação em obra."
     }
   },
@@ -9,6 +10,8 @@
   },
   "highlights": {
     "items": [
+      "Sistema construtivo principal: estrutura em wood frame",
+      "Fechamento/revestimento principal: painéis de MDF em superfícies planas e curvas",
       "Execução da estrutura em wood frame para os principais elementos construídos",
       "Revestimento em MDF em superfícies planas e curvas",
       "Superfícies prontas para acabamento com juntas e revelos limpos",
