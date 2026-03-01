@@ -1,10 +1,10 @@
 {
   "meta": {
     "lang": "en",
-    "title": "The Sanctuary | Residential Interior Renovation | Construction Portfolio",
-    "description": "Case study of The Sanctuary, a residential interior renovation focused on curved architectural details, premium finishes, and coordinated execution.",
-    "ogTitle": "The Sanctuary – Residential Interior Renovation",
-    "ogDescription": "From framing and drywall to premium finishing, The Sanctuary highlights disciplined execution and high-end residential detailing."
+    "title": "The Sanctuary | Exhibition Booth Build | Construction Portfolio",
+    "description": "Case study of The Sanctuary, an exhibition booth build focused on curved architectural forms, premium finishes, and coordinated on-site execution.",
+    "ogTitle": "The Sanctuary – Exhibition Booth Build",
+    "ogDescription": "From wood framing and MDF cladding to finish-ready detailing, The Sanctuary booth highlights disciplined execution for trade show environments."
   },
   "a11y": { "skip": "Skip to main content" },
   "site": {
@@ -13,41 +13,44 @@
     "backHome": "← Back to home"
   },
   "hero": {
-    "eyebrow": "Residential Interior Case Study",
+    "eyebrow": "Exhibition Booth Case Study",
     "title": "The Sanctuary",
-    "summary": "A premium interior renovation that transformed a standard living area into a warm, sculpted, and highly functional sanctuary."
+    "summary": "A premium booth build that transformed a concept into an immersive, sculpted, and highly functional exhibition environment."
   },
   "facts": {
     "title": "Project Facts",
     "client": { "label": "Client", "value": "Private Residence" },
     "location": { "label": "Location", "value": "Toronto, ON" },
     "year": { "label": "Year", "value": "2024" },
-    "category": { "label": "Category", "value": "Residential Renovation" },
-    "role": { "label": "Scope", "value": "Framing, drywall, finishing coordination and quality control" }
+    "category": { "label": "Category", "value": "Exhibition Booth" },
+    "role": {
+      "label": "Scope",
+      "value": "Wood frame structure, MDF cladding for flat and curved surfaces, finish-ready detailing, electrical/lighting coordination, and onsite installation support."
+    }
   },
   "details": {
     "title": "Project Details",
-    "body": "The Sanctuary combined architectural framing, drywall precision, and premium finish integration to achieve a calm and luxurious interior atmosphere."
+    "body": "The Sanctuary scope covered end-to-end technical delivery from wood frame structure through final-ready substrate preparation. Work included MDF panel coverage on both flat and curved surfaces, with tight geometry control to achieve clean reveals and joints ready for finishing. Field coordination ensured lighting and electrical readiness at interface points before close-up, and onsite install support kept sequencing, fit-up, and quality aligned with project milestones."
   },
   "overview": {
     "title": "Overview",
-    "body": "The objective was to modernize the interior while preserving a comfortable residential character. The design language focused on soft transitions, curated textures, and balanced lighting."
+    "body": "The objective was to translate a branded concept into an inviting exhibition booth that guided visitor flow and showcased key touchpoints. The design language prioritized soft transitions, curated textures, and balanced lighting for a premium presentation."
   },
   "challenge": {
     "title": "Challenge",
-    "body": "The renovation required clean alignment across curved details, ceiling transitions, and multiple finishing trades without compromising schedule or visual continuity."
+    "body": "The build required precise alignment across curved geometries, ceiling transitions, and multiple finishing trades within tight move-in windows, without compromising visual continuity on the show floor."
   },
   "approach": {
     "title": "Approach",
-    "body": "Work was executed in coordinated phases: site preparation, framing adjustments, drywall installation, progressive finishing, and final detail reviews. Daily communication kept sequencing predictable and quality consistent."
+    "body": "Execution followed coordinated booth-delivery phases: prefabrication planning, framing and substrate installation, progressive finishing, MEP readiness checks, and final on-site fit-up reviews. Daily communication kept sequencing predictable and quality consistent through handover."
   },
   "highlights": {
     "title": "Highlights",
     "items": [
-      "Custom framing support for architectural ceiling features",
-      "Drywall and finishing workflow optimized for smooth transitions",
-      "Material staging and trade coordination to reduce delays",
-      "Final detailing aligned with high-end residential expectations"
+      "Primary build system: wood frame structure",
+      "MDF panel cladding across flat and curved surfaces",
+      "Finish-ready surfaces with clean reveals and precise joints",
+      "Coordination for lighting and electrical readiness before closure"
     ]
   },
   "gallery": {
@@ -78,24 +81,4 @@
     "progress": "Mid-phase progress showing ceiling and wall development"
   },
   "footer": { "rights": "Construction Portfolio" }
-  "facts": {
-    "role": {
-      "value": "Primary Build System: Wood framing (wood frame); Primary Sheathing/Cladding: MDF panels on flat and curved surfaces; finish-ready detailing with clean reveals/joints; coordination for lighting/electrical readiness; onsite installation support."
-      "value": "Wood frame structure, MDF cladding for flat and curved surfaces, finish-ready detailing, electrical/lighting coordination, and onsite installation support."
-    }
-  },
-  "details": {
-    "body": "The Sanctuary scope covered end-to-end technical delivery from wood frame structure through final-ready substrate preparation. Work included MDF panel coverage/cladding on both flat and curved surfaces, with tight geometry control to achieve clean reveals and joints ready for finishing. Field coordination ensured lighting and electrical readiness at all interface points before close-up, and onsite install support was provided to keep sequencing, fit-up, and quality aligned with project milestones."
-  },
-  "highlights": {
-    "items": [
-      "Primary Build System: Wood framing (wood frame)",
-      "Primary Sheathing/Cladding: MDF panels across flat and curved surfaces",
-      "Wood frame structure execution for the primary built forms",
-      "MDF panel coverage/cladding across flat and curved surfaces",
-      "Finish-ready surfaces with clean reveals and precise joints",
-      "Coordination for lighting and electrical readiness before closure",
-      "Onsite install support for sequencing, fit-up, and quality control"
-    ]
-  }
 }
