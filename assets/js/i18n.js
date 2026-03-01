@@ -67,10 +67,12 @@ function renderProjects(projectsData) {
   projectsData.projects.forEach((project) => {
     const article = document.createElement('article');
     article.className = 'project-card';
+    const metadata = [project.year, project.category].filter(Boolean).join(' • ');
 
     article.innerHTML = `
       <img src="${project.image}" alt="${project.alt}" loading="lazy" decoding="async" />
       <h3>${project.title}</h3>
+      ${metadata ? `<p>${metadata}</p>` : ''}
       <p>${project.summary}</p>
       <a class="button" href="${project.href}">${project.cta}</a>
     `;
