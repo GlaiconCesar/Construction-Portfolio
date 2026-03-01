@@ -1,13 +1,13 @@
 const assetPrefix = window.location.pathname.includes('/projects/') ? '../' : '';
 
 const defaultGalleryItems = [
-  { src: `${assetPrefix}assets/img/hero-finished.jpg`, altKey: 'images.hero' },
-  { src: `${assetPrefix}assets/img/bar-feature.jpg`, altKey: 'images.bar' },
-  { src: `${assetPrefix}assets/img/wine-wall.jpg`, altKey: 'images.wine' },
-  { src: `${assetPrefix}assets/img/build-framing-arch.jpg`, altKey: 'images.framingArch' },
-  { src: `${assetPrefix}assets/img/build-finished-shell.jpg`, altKey: 'images.shell' },
-  { src: `${assetPrefix}assets/img/build-framing-curved-wall.jpg`, altKey: 'images.framingCurve' },
-  { src: `${assetPrefix}assets/img/brand-wn-salon-prive.jpg`, altKey: 'images.brand' }
+  { src: `${assetPrefix}assets/img/projects/salon-prive/hero-finished.jpg`, altKey: 'images.hero' },
+  { src: `${assetPrefix}assets/img/projects/salon-prive/bar-feature.jpg`, altKey: 'images.bar' },
+  { src: `${assetPrefix}assets/img/projects/salon-prive/wine-wall.jpg`, altKey: 'images.wine' },
+  { src: `${assetPrefix}assets/img/projects/salon-prive/build-framing-arch.jpg`, altKey: 'images.framingArch' },
+  { src: `${assetPrefix}assets/img/projects/salon-prive/build-finished-shell.jpg`, altKey: 'images.shell' },
+  { src: `${assetPrefix}assets/img/projects/salon-prive/build-framing-curved-wall.jpg`, altKey: 'images.framingCurve' },
+  { src: `${assetPrefix}assets/img/projects/salon-prive/brand-wn-salon-prive.jpg`, altKey: 'images.brand' }
 ];
 
 const galleryItems = Array.isArray(window.__galleryItems) && window.__galleryItems.length
