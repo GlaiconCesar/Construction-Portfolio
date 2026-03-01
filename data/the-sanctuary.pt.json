@@ -1,53 +1,56 @@
 {
   "meta": {
     "lang": "pt",
-    "title": "The Sanctuary | Reforma Residencial de Interiores | Construction Portfolio",
-    "description": "Estudo de caso do The Sanctuary, uma reforma residencial focada em detalhes curvos, acabamentos premium e execução coordenada.",
-    "ogTitle": "The Sanctuary – Reforma Residencial de Interiores",
-    "ogDescription": "Da estrutura e drywall ao acabamento premium, The Sanctuary destaca execução disciplinada e detalhamento residencial de alto padrão."
+    "title": "The Sanctuary | Construção de Estande para Exposição | Construction Portfolio",
+    "description": "Estudo de caso do The Sanctuary, uma construção de estande para exposição focada em formas curvas, acabamentos premium e execução coordenada em obra.",
+    "ogTitle": "The Sanctuary – Construção de Estande para Exposição",
+    "ogDescription": "Da estrutura em wood frame e revestimento em MDF ao detalhamento pronto para acabamento, o estande The Sanctuary destaca execução disciplinada para ambientes de feira."
   },
-  "a11y": { "skip": "Ir para o conteúdo principal" },
+  "a11y": { "skip": "Pular para o conteúdo principal" },
   "site": {
     "brand": "Construction Portfolio",
     "backProjects": "← Voltar para projetos",
     "backHome": "← Voltar para início"
   },
   "hero": {
-    "eyebrow": "Estudo de Caso Residencial",
+    "eyebrow": "Estudo de Caso de Estande para Exposição",
     "title": "The Sanctuary",
-    "summary": "Uma reforma de interiores premium que transformou um ambiente comum em um espaço acolhedor, escultural e altamente funcional."
+    "summary": "Uma montagem premium de estande que transformou o conceito em um ambiente de exposição imersivo, escultural e altamente funcional."
   },
   "facts": {
     "title": "Dados do Projeto",
     "client": { "label": "Cliente", "value": "Residência Privada" },
     "location": { "label": "Local", "value": "Toronto, ON" },
     "year": { "label": "Ano", "value": "2024" },
-    "category": { "label": "Categoria", "value": "Reforma Residencial" },
-    "role": { "label": "Escopo", "value": "Frame, drywall, coordenação de acabamento e controle de qualidade" }
+    "category": { "label": "Categoria", "value": "Estande para Exposição" },
+    "role": {
+      "label": "Escopo",
+      "value": "Estrutura em wood frame, revestimento em MDF em superfícies planas e curvas, detalhamento pronto para acabamento, coordenação elétrica/de iluminação e suporte de instalação em obra."
+    }
   },
   "details": {
     "title": "Detalhes do Projeto",
-    "body": "O The Sanctuary combinou estrutura arquitetônica, precisão em drywall e integração de acabamentos premium para alcançar uma atmosfera interna calma e sofisticada."
+    "body": "O escopo do The Sanctuary cobriu a entrega técnica de ponta a ponta, desde a estrutura em wood frame até a preparação final das bases para acabamento. Os serviços incluíram revestimento em painéis de MDF em superfícies planas e curvas, com controle rigoroso de geometria para garantir juntas e revelos limpos, prontos para acabamento. A coordenação em campo assegurou a prontidão elétrica e de iluminação nos pontos de interface antes do fechamento, e houve suporte de instalação em obra para manter sequenciamento, encaixes e qualidade alinhados aos marcos do projeto."
   },
   "overview": {
     "title": "Visão Geral",
-    "body": "O objetivo foi modernizar o interior preservando o conforto residencial. A linguagem do projeto priorizou transições suaves, texturas selecionadas e iluminação equilibrada."
+    "body": "O objetivo foi traduzir um conceito de marca em um estande de exposição convidativo, capaz de orientar o fluxo de visitantes e destacar os principais pontos de contato. A linguagem de design priorizou transições suaves, texturas selecionadas e iluminação equilibrada para uma apresentação premium."
   },
   "challenge": {
     "title": "Desafio",
-    "body": "A reforma exigiu alinhamento preciso entre detalhes curvos, transições de teto e múltiplas equipes de acabamento sem comprometer prazo nem continuidade visual."
+    "body": "A montagem exigiu alinhamento preciso entre geometrias curvas, transições de forro e múltiplas equipes de acabamento em janelas curtas de entrada no pavilhão, sem comprometer a continuidade visual no piso de exposição."
   },
   "approach": {
     "title": "Abordagem",
-    "body": "A execução ocorreu em fases coordenadas: preparação do local, ajustes de estrutura, instalação de drywall, acabamento progressivo e revisão final de detalhes. A comunicação diária manteve o sequenciamento previsível e a qualidade consistente."
+    "body": "A execução seguiu fases coordenadas de entrega de estande: planejamento de pré-fabricação, instalação de estrutura e substrato, acabamento progressivo, verificações de prontidão MEP e revisões finais de encaixe em obra. A comunicação diária manteve o sequenciamento previsível e a qualidade consistente até a entrega."
   },
   "highlights": {
     "title": "Destaques",
     "items": [
-      "Suporte de estrutura customizada para elementos arquitetônicos no teto",
-      "Fluxo de drywall e acabamento otimizado para transições suaves",
-      "Organização de materiais e coordenação de equipes para reduzir atrasos",
-      "Detalhamento final alinhado com padrão residencial de alto nível"
+      "Sistema construtivo principal: estrutura em wood frame",
+      "Revestimento em painéis de MDF em superfícies planas e curvas",
+      "Superfícies prontas para acabamento com juntas e revelos precisos",
+      "Coordenação para prontidão elétrica e de iluminação antes do fechamento"
     ]
   },
   "gallery": {
@@ -78,24 +81,4 @@
     "progress": "Progresso intermediário mostrando evolução de teto e paredes"
   },
   "footer": { "rights": "Construction Portfolio" }
-  "facts": {
-    "role": {
-      "value": "Sistema construtivo principal: estrutura em wood frame; fechamento/revestimento principal: painéis de MDF em superfícies planas e curvas; detalhamento pronto para acabamento com juntas/revelos limpos; coordenação para prontidão elétrica/iluminação; suporte de instalação em obra."
-      "value": "Estrutura em wood frame, revestimento em MDF em superfícies planas e curvas, detalhamento pronto para acabamento, coordenação para prontidão elétrica/iluminação e suporte de instalação em obra."
-    }
-  },
-  "details": {
-    "body": "O escopo do The Sanctuary cobriu a entrega técnica de ponta a ponta, desde a estrutura em wood frame até a preparação final das bases para acabamento. Os serviços incluíram revestimento em MDF em superfícies planas e curvas, com controle rigoroso de geometria para garantir juntas e revelos limpos, prontos para acabamento. A coordenação em campo assegurou a prontidão elétrica e de iluminação em todos os pontos de interface antes do fechamento, e houve suporte de instalação em obra para manter sequenciamento, encaixes e qualidade alinhados aos marcos do projeto."
-  },
-  "highlights": {
-    "items": [
-      "Sistema construtivo principal: estrutura em wood frame",
-      "Fechamento/revestimento principal: painéis de MDF em superfícies planas e curvas",
-      "Execução da estrutura em wood frame para os principais elementos construídos",
-      "Revestimento em MDF em superfícies planas e curvas",
-      "Superfícies prontas para acabamento com juntas e revelos limpos",
-      "Coordenação para prontidão elétrica e de iluminação antes do fechamento",
-      "Suporte de instalação em obra para sequenciamento, encaixes e controle de qualidade"
-    ]
-  }
 }
