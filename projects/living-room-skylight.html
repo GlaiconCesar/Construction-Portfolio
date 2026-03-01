@@ -61,43 +61,70 @@
 
         <p class="eyebrow" data-i18n="hero.eyebrow"></p>
         <h1 data-i18n="hero.title"></h1>
-        <p class="hero-summary" data-i18n="hero.summary"></p>
+        <p class="hero-summary" data-i18n="hero.subtitle"></p>
+      </section>
 
+      <section>
         <article class="facts-card" aria-labelledby="facts-heading">
           <h2 id="facts-heading" class="facts-title" data-i18n="facts.title"></h2>
           <dl class="facts-grid">
             <div class="fact-item"><dt data-i18n="facts.company.label"></dt><dd data-i18n="facts.company.value"></dd></div>
             <div class="fact-item"><dt data-i18n="facts.location.label"></dt><dd data-i18n="facts.location.value"></dd></div>
-            <div class="fact-item"><dt data-i18n="hero.typeLabel"></dt><dd data-i18n="hero.typeValue"></dd></div>
+            <div class="fact-item"><dt data-i18n="facts.type.label"></dt><dd data-i18n="facts.type.value"></dd></div>
             <div class="fact-item"><dt data-i18n="facts.role.label"></dt><dd data-i18n="facts.role.value"></dd></div>
           </dl>
         </article>
       </section>
 
       <section>
-        <h2 data-i18n="overview.title"></h2>
-        <p data-i18n="overview.body"></p>
+        <h2 data-i18n="executiveSummary.title"></h2>
+        <p data-i18n="executiveSummary.body"></p>
       </section>
 
       <section>
-        <h2 data-i18n="responsibilities.title"></h2>
+        <h2 data-i18n="projectObjectives.title"></h2>
         <ul>
-          <li data-i18n="responsibilities.items.0"></li>
-          <li data-i18n="responsibilities.items.1"></li>
-          <li data-i18n="responsibilities.items.2"></li>
-          <li data-i18n="responsibilities.items.3"></li>
-          <li data-i18n="responsibilities.items.4"></li>
+          <li data-i18n="projectObjectives.items.0"></li>
+          <li data-i18n="projectObjectives.items.1"></li>
+          <li data-i18n="projectObjectives.items.2"></li>
+          <li data-i18n="projectObjectives.items.3"></li>
         </ul>
       </section>
 
       <section>
-        <h2 data-i18n="narrative.title"></h2>
-        <p data-i18n="narrative.body"></p>
+        <h2 data-i18n="scopeOfWork.title"></h2>
+        <ul>
+          <li data-i18n="scopeOfWork.items.0"></li>
+          <li data-i18n="scopeOfWork.items.1"></li>
+          <li data-i18n="scopeOfWork.items.2"></li>
+          <li data-i18n="scopeOfWork.items.3"></li>
+          <li data-i18n="scopeOfWork.items.4"></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2 data-i18n="technicalExecution.title"></h2>
+        <p data-i18n="technicalExecution.body"></p>
+      </section>
+
+      <section>
+        <h2 data-i18n="resultsValueDelivered.title"></h2>
+        <p data-i18n="resultsValueDelivered.body"></p>
+      </section>
+
+      <section>
+        <h2 data-i18n="conclusion.title"></h2>
+        <p data-i18n="conclusion.body"></p>
       </section>
 
       <section>
         <h2 data-i18n="gallery.title"></h2>
         <div id="gallery-grid" class="gallery" aria-label="Project image gallery"></div>
+      </section>
+
+      <section>
+        <a class="back-link" href="../index.html" data-i18n="site.backHome"></a>
+        <a class="back-link" href="../index.html#projects" data-i18n="site.backProjects"></a>
       </section>
     </main>
 
@@ -117,6 +144,9 @@
         { src: '../assets/img/projects/living-room-skylight/skylight-1000002279.jpg', altKey: 'images.scaffoldWork' },
         { src: '../assets/img/projects/living-room-skylight/skylight-1000003021.jpg', altKey: 'images.finalWide' }
       ];
+    </script>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
     </script>
   </body>
 </html>

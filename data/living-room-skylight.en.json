@@ -10,38 +10,54 @@
   "site": {
     "brand": "Construction Portfolio",
     "backProjects": "← Back to projects",
-    "backHome": "Home"
+    "backHome": "← Back to home"
   },
   "hero": {
     "eyebrow": "Residential Renovation",
     "title": "Custom Living Room – Framing, Drywall & Skylight Feature",
-    "summary": "From framing and drywall to finish-ready detailing, this project delivered a custom curved ceiling with skylight integration and LED cove effect.",
-    "typeLabel": "Type",
-    "typeValue": "Residential interior renovation"
+    "subtitle": "From framing and drywall to finish-ready detailing, this project delivered a custom curved ceiling with skylight integration and LED cove effect."
   },
   "facts": {
     "title": "Quick Facts",
     "company": { "label": "Company", "value": "IMP Construction" },
     "location": { "label": "Location", "value": "Toronto, ON" },
+    "type": { "label": "Project Type", "value": "Residential interior renovation" },
     "role": { "label": "My Scope", "value": "Framing, drywall, taping, team support, material management, daily reporting" }
   },
-  "overview": {
-    "title": "Overview",
-    "body": "Residential renovation featuring a custom architectural ceiling with curved transitions and skylight integration. Scope included framing support, drywall installation, taping/finishing, and coordination with trades to keep progress aligned with schedule and material availability."
+  "executiveSummary": {
+    "title": "Executive Summary",
+    "body": "This living room renovation required precise execution of a custom curved ceiling integrated with a skylight feature. The project combined structural framing support, drywall installation, finish preparation, and active crew coordination to maintain quality standards and construction momentum."
   },
-  "responsibilities": {
-    "title": "My Responsibilities",
+  "projectObjectives": {
+    "title": "Project Objectives",
     "items": [
-      "Framing support for curved ceiling feature and skylight opening",
-      "Drywall installation (walls/ceiling)",
-      "Taping, mudding, sanding (finish-ready surfaces)",
-      "Assisting crew coordination and daily task alignment",
-      "Material tracking, staging, and daily reporting"
+      "Support construction of a curved architectural ceiling around the skylight opening",
+      "Deliver clean drywall installation and finish-ready surfaces",
+      "Coordinate daily crew tasks to keep work aligned with schedule",
+      "Maintain material flow and site readiness throughout all phases"
     ]
   },
-  "narrative": {
-    "title": "Process → Final",
-    "body": "The gallery follows the project journey from structural framing and drywall boarding through detailed finishing, scaffold-supported execution, and final lighting activation around the skylight feature."
+  "scopeOfWork": {
+    "title": "Scope of Work",
+    "items": [
+      "Framing support for curved ceiling geometry and skylight detailing",
+      "Drywall installation for walls and ceiling zones",
+      "Taping, mudding, sanding, and finish preparation",
+      "Assistance with team alignment and day-to-day sequencing",
+      "Material tracking, staging, and daily progress reporting"
+    ]
+  },
+  "technicalExecution": {
+    "title": "Technical Execution & Methodology",
+    "body": "Execution followed a phased workflow: framing verification, drywall boarding, joint treatment, and progressive finishing. Scaffold-supported access enabled safe and accurate work on elevated ceiling transitions. Continuous trade coordination helped resolve constraints quickly and preserved installation quality."
+  },
+  "resultsValueDelivered": {
+    "title": "Results & Value Delivered",
+    "body": "The final result delivered a refined living room feature with smooth curves, integrated skylight detailing, and balanced LED cove lighting. The process improved site efficiency through organized material handling and clear reporting, while ensuring a high-end visual outcome consistent with client expectations."
+  },
+  "conclusion": {
+    "title": "Conclusion",
+    "body": "This project demonstrates the value of disciplined execution in custom interior renovation. By combining technical precision, team collaboration, and daily operational control, the build progressed from rough framing to a polished final environment with strong architectural impact."
   },
   "gallery": {
     "title": "Gallery",
